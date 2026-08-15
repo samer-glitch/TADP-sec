@@ -237,25 +237,33 @@ network-level denial-of-service attacks.
 
 ```text
 TADP-Sec/
+│
 ├── README.md
-├── LICENSE
+│
+├── TADP-Sec_v11.7_Canonical_Experiment.ipynb
 │
 ├── src/
-│   └── TADP_Sec_v11_7.py
+│   └── TADP-Sec_v11.7_Source.py
 │
 ├── supplementary/
 │   └── TADP-Sec_Supplementary_Material.pdf
 │
 ├── results/
-│   ├── main/
-│   ├── governance_sensitivity/
-│   ├── performance_security/
-│   ├── metric_equivalence/
-│   ├── noninferiority/
-│   ├── t4_availability/
-│   └── audit/
+│   ├── admission_results.json
+│   ├── main_experimental_results.csv
+│   ├── aggregate_fidelity_diagnostics.csv
+│   ├── protocol_enforcement_results.csv
+│   ├── t4_availability_results.csv
+│   ├── noninferiority_ap_planned_contrasts.csv
+│   └── metric_equivalence_diagnostics_summary.csv
 │
-└── figures/
-    ├── main_results/
-    ├── governance_sensitivity/
-    └── supplementary/
+├── governance_sensitivity/
+│   ├── governance_sensitivity_summary.csv
+│   └── [your sensitivity/ablation heatmaps or CSV files]
+│
+├── figures/
+│   └── main_results.png
+│
+├── requirements.txt
+│
+└── LICENSE
