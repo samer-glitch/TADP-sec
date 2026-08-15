@@ -1,6 +1,4 @@
 # TADP-sec
-# TADP-Sec
-
 ## Trustworthy AI Data Preparation with Governance-to-Runtime Security for Federated Learning
 
 TADP-Sec is a research framework that connects **evidence-based data/contributor
