@@ -1,0 +1,50 @@
+{
+  "T2_DF_KS_TADP": {
+    "artificial_ks_noise": "none",
+    "d": 25,
+    "fixed_point_scale": 1000000,
+    "lambda": 10,
+    "m": "2^800",
+    "m_prime": "2^80",
+    "mechanism": "modified_Domingo_Ferrer_plus_matrix_key_switching",
+    "security_claim_scope": "custom_research_prototype_not_standardized_bit_security_claim"
+  },
+  "T3_XMK_CKKS_TADP": {
+    "error_distribution": "SEAL_style_centered_binomial_nominal_sigma_3.2",
+    "error_nominal_sigma": 3.2,
+    "mechanism": "xMK_CKKS_all_participant_collaborative_decryption",
+    "poly_modulus_degree": 2048,
+    "rns_prime_bits": [
+      30,
+      24
+    ],
+    "rns_primes": [
+      1073692673,
+      16760833
+    ],
+    "rns_total_bit_count": 54,
+    "scale": 1099511627776,
+    "secret_distribution": "dense_uniform_ternary_-1_0_1",
+    "security_claim_scope": "SEAL_tc128_parameter_bound_compatible_custom_reference_not_SEAL_certified",
+    "security_parameter_target": "SEAL_tc128_parameter_profile__N2048_total_coeff_modulus_bits54__dense_ternary__nominal_sigma3.2__custom_xmk_not_certified",
+    "total_coeff_modulus_bits": 54
+  },
+  "T4_SAMK_TADP": {
+    "bfv_coeff_modulus": 18014398509404161,
+    "bfv_coeff_modulus_bits": 54,
+    "bfv_error_distribution": "SEAL_style_centered_binomial_nominal_sigma_3.2",
+    "bfv_error_nominal_sigma": 3.2,
+    "bfv_plain_modulus": 16777213,
+    "bfv_poly_modulus_degree": 2048,
+    "bfv_secret_distribution": "dense_uniform_ternary_-1_0_1",
+    "fixed_point_scale": 1000000,
+    "mechanism": "SAMK_MK_BFV_plus_Paillier_helper_protection",
+    "paillier_modulus_target_bits": 3072,
+    "paillier_prime_bits": 1536,
+    "security_claim_scope": "custom_reference_implementation_not_independently_certified",
+    "security_parameter_target": {
+      "BFV": "SEAL_tc128_parameter_profile__N2048_total_coeff_modulus_bits54__dense_ternary__nominal_sigma3.2__custom_reference_not_certified",
+      "Paillier": "3072_bit_modulus__approximately_128_bit_classical_factoring_target__custom_reference_not_certified"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+Scenario,Attack type,Tier,TADP-admitted before attack,Injected attackers,Attackers blocked,Attack-blocking rate,Benign clients blocked,Effective clients after enforcement,Blocked before aggregation?,Session re-formed,Outcome
+T1_TEST_SIGNATURE_ATTACK,Invalid signature,T1,12,2,2/2,100%,0,10.0 ± 0.0,Yes,No / not required,All injected attackers rejected before aggregation
+T2_TEST_REPLAY_ATTACK,Replay / stale update,T2,12,1,1/1,100%,0,11.0 ± 0.0,Yes,No / not required,All injected attackers rejected before aggregation
+T3_TEST_POFC_ATTACK,PoFC overflow,T3,12,3,3/3,100%,0,9.0 ± 0.0,Yes,No / not required,All injected attackers rejected before aggregation
