@@ -1,7 +1,0 @@
-Omitted dimension display,Was critical dimension,Admitted,Delta admitted,Not admitted,Admission flips,Lost admissions,New admissions,Admitted-set Jaccard,Mean |ΔHPS|,Max |ΔHPS|
-Data Quality,True,6,-6,14,6,6,0,0.5,0.5049999999999999,0.8999999999999999
-Source Reliability,True,12,0,8,0,0,0,1.0,0.1762499999999998,0.3250000000000002
-Regulatory,True,12,0,8,0,0,0,1.0,0.12441176470588262,0.22941176470588287
-Context,True,12,0,8,0,0,0,1.0,0.0816666666666666,0.14444444444444438
-Documentation,False,12,0,8,0,0,0,1.0,0.05933823529411801,0.10588235294117698
-Timeliness,False,12,0,8,0,0,0,1.0,0.05933823529411801,0.10588235294117698

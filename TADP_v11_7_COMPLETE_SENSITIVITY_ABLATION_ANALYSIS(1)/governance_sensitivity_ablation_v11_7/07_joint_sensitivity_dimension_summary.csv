@@ -1,7 +1,0 @@
-Dimension,Dimension display,Max absolute Δ admitted,At threshold perturbation for max |Δ admitted|,At weight perturbation for max |Δ admitted|,Signed Δ admitted at that point,Maximum admission flips,At threshold perturbation for max flips,At weight perturbation for max flips
-source_reliability,Source Reliability,9.0,+30%,-30%,-9.0,9,+30%,-30%
-data_quality,Data Quality,9.0,+30%,-30%,-9.0,9,+30%,-30%
-documentation,Documentation,9.0,+30%,-30%,-9.0,9,+30%,-30%
-timeliness,Timeliness,9.0,+30%,-30%,-9.0,9,+30%,-30%
-regulatory,Regulatory,9.0,+30%,-30%,-9.0,9,+30%,-30%
-context,Context,9.0,+30%,-30%,-9.0,9,+30%,-30%
