@@ -240,30 +240,16 @@ TADP-Sec/
 │
 ├── README.md
 │
-├── TADP-Sec_v11.7_Canonical_Experiment.ipynb
+├── TADP-Sec_Canonical_Experiment and more results
 │
-├── src/
-│   └── TADP-Sec_v11.7_Source.py
+├── TADP-Sec_Supplementary_Material.pdf
 │
-├── supplementary/
-│   └── TADP-Sec_Supplementary_Material.pdf
+├── crypto_articfacts/
 │
-├── results/
-│   ├── admission_results.json
-│   ├── main_experimental_results.csv
-│   ├── aggregate_fidelity_diagnostics.csv
-│   ├── protocol_enforcement_results.csv
-│   ├── t4_availability_results.csv
-│   ├── noninferiority_ap_planned_contrasts.csv
-│   └── metric_equivalence_diagnostics_summary.csv
+├── fig/
 │
-├── governance_sensitivity/
-│   ├── governance_sensitivity_summary.csv
-│   └── [your sensitivity/ablation heatmaps or CSV files]
+├── ledgers/
 │
-├── figures/
-│   └── main_results.png
-│
-├── requirements.txt
+├── stats/
 │
 └── LICENSE
