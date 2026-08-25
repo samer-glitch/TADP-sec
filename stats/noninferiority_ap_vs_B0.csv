@@ -1,6 +1,0 @@
-scenario,baseline,n_paired_seeds,mean_ap_difference,noninferiority_margin_ap,one_sided_t_statistic,one_sided_p_value,one_sided_95pct_lower_bound,noninferior_at_alpha_0_05,analysis_status
-B1_xMK_CKKS,B0_Plain_FL,5,1.479794622394337e-08,0.005,551761.9802653258,3.236787349615052e-23,-4.520647408516823e-09,True,exploratory_unless_margin_was_predeclared_before_this_run
-T2_DF_KS_TADP,B0_Plain_FL,5,-0.001267821083017595,0.005,17.638862263346695,3.033821792678985e-05,-0.0017188951665597276,True,exploratory_unless_margin_was_predeclared_before_this_run
-A1_TADP_admission_only,B0_Plain_FL,5,-0.0012678260111349982,0.005,17.638839392607224,3.0338373609478424e-05,-0.001718900083928498,True,exploratory_unless_margin_was_predeclared_before_this_run
-T1_Plain_TADP,B0_Plain_FL,5,-0.0012678260111349982,0.005,17.638839392607224,3.0338373609478424e-05,-0.001718900083928498,True,exploratory_unless_margin_was_predeclared_before_this_run
-T3_XMK_CKKS_TADP,B0_Plain_FL,5,-0.0012678269734027968,0.005,17.63881835887336,3.0338516788423656e-05,-0.0017189014677871503,True,exploratory_unless_margin_was_predeclared_before_this_run

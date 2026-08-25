@@ -1,7 +1,0 @@
-{
-  "resource_measurement_policy": "fixed_execution_host_runtime_payload_and_machine_specification__no_unmeasured_absolute_energy_or_carbon_claim",
-  "resource_measurement_scope": "sequential_single_host_wall_clock_and_generated_protocol_object_bytes__machine_specification_recorded__transport_network_facility_energy_not_measured",
-  "energy_estimation_method": "not_reported_without_direct_hardware_energy_instrumentation",
-  "carbon_accounting_status": "not_reported__no_direct_facility_or_grid_carbon_measurement",
-  "absolute_energy_reported": false
-}
