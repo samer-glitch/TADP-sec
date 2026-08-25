@@ -296,20 +296,15 @@ network-level denial-of-service attacks.
 
 ## Repository Structure
 
+```text
 TADP-Sec/
-│
 ├── README.md
-│
-├── TADP-Sec_Canonical_Experiment and more results
-│
+├── TADP-Sec_Canonical_Experiment/
+│   └── Canonical v14.0 experiment and supporting results
 ├── TADP-Sec_Supplementary_Material.pdf
-│
 ├── crypto_artifacts/
-│
 ├── fig/
-│
 ├── ledgers/
-│
 ├── stats/
-│
 └── LICENSE
+```
