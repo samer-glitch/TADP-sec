@@ -1,0 +1,3202 @@
+{
+  "client_000": {
+    "client_id": "client_000",
+    "evidence_bundle_artifact_hash": "07729ebbade41c950b9d8f0a4390079c358887cd4e10320242a9a7d0b9c51da2",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_000_e9dd86b99d94620d__07729ebbade41c95.json",
+    "evidence_bundle_hash": "e9dd86b99d94620d12dd495ad3d80a5a104bd2d373fd67395815d234893ad76f",
+    "evidence_bundle_signature": "JVXICQxxVdGgNWm4e+qcVpCek+WrKmJiOrbymxoMSxVmSXTioACCb2V4jarUedIdA8l+o84DY6xS7JBiplFHHX643EW5vWAgBejXa1hzCUwnkWqusuZNWX903NlDPN6/Y0+XFyFPg1WI7uZQFhtBeg112pu+zqpLZyfLdnDxTivwhB7syuM0KVxHAPjRaNA3cxglkjUOBT0xdpQovpJiv6Vp0SCxOYuPA9bdjcfH32utYUC8EiOGt8mHraCd45SyZ+gsbSG72oAZNBUTkZH+KJXUMXwFZMpjH/HaUQXRrkcPgkwo2LclLgGXPPZrLgp8WwdMbwuKfuajsNQjzyxhRGnB4Mi3NZ84bVYFAuHC/m/7SCzGsFJrtkfdyeuYaTEybXT4FaefXN0WU1Q4kyqLiezVmkn4Xe7aaXMvaHCAnIDMOutp9ITBAQuXKpXyOcanX7udu9r4eqo6FogP2/IIokGs0L/sbMOphdIupszTP7/bBBrsV29+g4pBy2nnzVI0",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G1_MATURE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_000/risk_archetype/R4_RESTRICTED/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_000/risk_archetype/R4_RESTRICTED/business_impact",
+        "option": "CRITICAL"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_000/risk_archetype/R4_RESTRICTED/confidentiality",
+        "option": "CRITICAL"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_000/risk_archetype/R4_RESTRICTED/integrity",
+        "option": "HIGH"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_000",
+      "dataset_commitment": "4e8364c73532e53e60dc4309b160584013fb78aa4365ac26ab82d524032f82bc",
+      "dataset_version": "client_000:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.306320+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 7101,
+        "n_positive": 11,
+        "n_samples": 7112,
+        "positive_rate": 0.001546681665
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.002249718785,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "UhwUDTbZSjwzAZNFuf9OZRqk44V+Lbytg96Jv8CosOGR2sQmPy0qxPEaj9aafN166WZy8nM/+q/hI77P/uolFu9ee5HO4yxf1aA+7jjJHXnVp5BOOMLWeYgLstJW5m4S7fq1gIDPIR86KCZIC7/XJZX/Gz0lC8LO5x25VESSntWtcRIjz6GtZyGp3D9uDKlSNlevaw+ORyr09zCLb+horRnqqU6NGhzQSiJ5QtYtd3cwmKSEBgvfoRluIWb0Ks8JO2IG5CmY2QPaLz5M6Y9z0mUdYMbDrOdzQF/iEk7PXNTNdDzL069r5RLiC+7O+oRHNmxpjTPIZXRXXY+442bHgp+bjhBQ6r3rOUWhQcjoJMgslFwJkeMHO+q97OfTru1FklElQOQ3RXLIb3JUEwFPdUCisCN+stBBzkjTgWaFiSFbEQZDUYLWLNDpD65v4eQOjGojFPhRdjyr3xy1aKvjKI/670WllMiRF6UvTpO7DexcDpm4I0vz4OWQsweMc7xo",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R4_RESTRICTED",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/context/intended_use_compatibility",
+          "option": "STRONG"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/context/known_limitations",
+          "option": "STRONG"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/context/license_permissions",
+          "option": "STRONG"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/context/population_domain_coverage",
+          "option": "STRONG"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/context/redistribution_constraints",
+          "option": "STRONG"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/documentation/collection_protocol",
+          "option": "STRONG"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/documentation/data_dictionary",
+          "option": "STRONG"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/documentation/definition_updates",
+          "option": "STRONG"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/documentation/version_history",
+          "option": "STRONG"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/regulatory/audit_status",
+          "option": "VERY_STRONG"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/regulatory/consent_ethics",
+          "option": "VERY_STRONG"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/regulatory/geographic_restrictions",
+          "option": "VERY_STRONG"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/regulatory/lawful_basis",
+          "option": "VERY_STRONG"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/regulatory/sensitivity_classification",
+          "option": "VERY_STRONG"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/source_reliability/collection_objective",
+          "option": "VERY_STRONG"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/source_reliability/data_controller",
+          "option": "VERY_STRONG"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/source_reliability/source_assurance",
+          "option": "VERY_STRONG"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/timeliness/freshness_requirement",
+          "option": "STRONG"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/timeliness/refresh_schedule",
+          "option": "STRONG"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_000/governance_archetype/G1_MATURE/timeliness/retention_policy",
+          "option": "STRONG"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.658718+00:00"
+  },
+  "client_001": {
+    "client_id": "client_001",
+    "evidence_bundle_artifact_hash": "f90143f840b8dd26da4e4c3eeb8634e7d0dad57abed9e05db9663484441315d8",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_001_d2b1684220b9e334__f90143f840b8dd26.json",
+    "evidence_bundle_hash": "d2b1684220b9e3346c51e92b995d1f0a7a4f017db5fe277d2f06d0e5b81c2cca",
+    "evidence_bundle_signature": "DP1LB8syoEo3ClMBx3D9HJ2vVbb8R4iRqd4eWzBvQuuqqywZ/PNW9y1Y1djm+muuYl2LL5fghQSfrXloer31v9MipG5vS8X7YbR1DJZzEsplhMVvAQNpIosow62A9ZXie9edALmRG7AQtlxZcXSvgCVr/hoMPp8mhbkUtGc7qaV1zkwebX6xbEFoe+7Mfg7UCUGO6DmQLUAE8UlKtCIiQXj8fjcYkh3kQnAIqvSTGL4MIuASXuqRAegYyerLCYdYzLqB/RtKKDAhBNz/C5RStK8Dwf2D53mniGFsnKbxxJL7U+z1oLhpfqFUTCnvTqUQxPkYSizsGAfqecB84GK1lEQjoge7SEpeuD77ire40Qfe1f6mFX4FklO2u/GfNDxAsZN8fEuOfxKCtPu0PK90X/ab2ZCA0GZXIsFoUeF70Mud7I3L08zstt4bpmQFtLZauBGMujcWLL1tgev+BvCPxA1864cmXszw4mCTEUehu9zyilICkqZ9LlYafC2Ko3Ku",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G3_ADEQUATE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_001/risk_archetype/R1_INTERNAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_001/risk_archetype/R1_INTERNAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_001/risk_archetype/R1_INTERNAL/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_001/risk_archetype/R1_INTERNAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_001",
+      "dataset_commitment": "6b576962e0cd07c01b3dd866d1a4d5afae71c1f8dca5ab8676ee8ee43a59e64c",
+      "dataset_version": "client_001:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.353846+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 27915,
+        "n_positive": 4,
+        "n_samples": 27919,
+        "positive_rate": 0.000143271607
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.007521759375,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "posmY997wk3DuYUAqAQYU7HXCUMhqEQubpBj1U4ebmVxwFEbH4fC9yEifiZYZJMSXfnfVcpyC86tJwgJRMojc1IHj467J5LDnCKQ0jOXHhehOjhKdbuzuF82NzpuN2IZhPZnpWfCWNF/fPO+KEslGWiq0buWrcTFnj8PfxJI4bu6Ano4wdXAw8wSeiBe/2XdvAO5o9HU4Bqpu9Ur8dUhE/FRZgQr0gj31CnT0PcXNgqbKkbrXn0Zc5YY3FPNKAaElNi5IxRVG9fI3qx5SVVo7mV8CX/b27TGxNzFKouDOCm8GtIoRcbCQXCndnBixrRMjIfE1tZ6ybk5AJOqMqqxAKFuI3RIz9xljU78GiteuCuzCT0dAp4UqXjTpo38bLf/BA6wtqe/j7RrFNGRFSdmIbrKmZpspmqC6BWfgj7cp43SR4Gx9aTyGFDpzB2MZKHSW078WPSmXDPFdCYk6ivJQVBVx1QKXu5U8WOPggrGYf/9EDupvvn9TQP8hTKmMAA3",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R1_INTERNAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/context/intended_use_compatibility",
+          "option": "ADEQUATE"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/context/known_limitations",
+          "option": "ADEQUATE"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/context/license_permissions",
+          "option": "ADEQUATE"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/context/population_domain_coverage",
+          "option": "ADEQUATE"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/context/redistribution_constraints",
+          "option": "ADEQUATE"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/regulatory/audit_status",
+          "option": "ADEQUATE"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/regulatory/consent_ethics",
+          "option": "ADEQUATE"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/regulatory/geographic_restrictions",
+          "option": "ADEQUATE"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/regulatory/lawful_basis",
+          "option": "ADEQUATE"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/regulatory/sensitivity_classification",
+          "option": "ADEQUATE"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/source_reliability/collection_objective",
+          "option": "ADEQUATE"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/source_reliability/data_controller",
+          "option": "ADEQUATE"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/source_reliability/source_assurance",
+          "option": "ADEQUATE"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_001/governance_archetype/G3_ADEQUATE/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.668912+00:00"
+  },
+  "client_002": {
+    "client_id": "client_002",
+    "evidence_bundle_artifact_hash": "68b3438f928837ccdafff61f8a5653f212a3bc3d8997c02bec8754f7f4ac04c6",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_002_49de6104660d46c1__68b3438f928837cc.json",
+    "evidence_bundle_hash": "49de6104660d46c13039d5a02443647ebd77d5a79841d3d183793dd4c998c04a",
+    "evidence_bundle_signature": "ZmjxBmn99FuM4Fvb/Yp2kcJz12tKLF9XC9iwDEZwYuaIxSIWNVfCDPAPSHH9h5+bt/M4F4dJ+HA1Tp/ZJjswwfN/juhWBnvi6M46PocFa9zcFwpUvrbvuOMyxd9EfIEUjX1LN1K3zV6URXx+0MbAt1E+doIl2avEDxmV38FB09scmGS06u6bzWakecgEq05uOUd5kt3CvaEzW5gMXRe1zyqeVahkwMeJO88l1gzX4zBtmHBjV+7tRmvAdQf0FMH18DfU+eBZnLVFzk9ukDLKhx/Es08cZWQijAXTlhfMom368tXe852t+YityXwRFR8nre65uawadumw0esNVRcjnB1nfbwv3/6cLDzecp34UidUcFJ4mVvpJhHplWLxA0uhTXWVLptmrVcPTHpMcJFrUj+TWsH0shZ7bnVzzM9Cu7ykIvgx1SDbV9QkS/dk2JmwrpcBezYLyO7YWgl28Nd/vZHspKD3cH5ztSP/FQ8cwpW4jVjkou7wWQR/1HdHQGwd",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G4_REMEDIATION_NEEDED",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_002/risk_archetype/R2_CONFIDENTIAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_002/risk_archetype/R2_CONFIDENTIAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_002/risk_archetype/R2_CONFIDENTIAL/confidentiality",
+        "option": "HIGH"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_002/risk_archetype/R2_CONFIDENTIAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_002",
+      "dataset_commitment": "61d289a234ee3befa514bf84fe010e9e7634dbd5250f0efa37c555f778cb34bc",
+      "dataset_version": "client_002:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.375519+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 12320,
+        "n_positive": 26,
+        "n_samples": 12346,
+        "positive_rate": 0.002105945245
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.003887898915,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "pv/vbkwYHEVI7S1xnXErhZa9ECKSb8b8z8yAWhbQ54r15LObw6y0YbpRTusanNYPuGB2eU2wd4snBifbTVFas2xVb3Vvq/+9jBmpmCk+o8BtF7JSvAkXXWGK9JQR06N5NlrejYYTOg89ndE8HASqnp4visc2iv06Rg5wiivRyQRrmJ4FO/L81ej1CM5ovbwaGXeNrN3SRvwVOjLFV1rC2k1nGVWEYN0hR2Wq4YCSOhOMbDsX2tzqEKjjaQfbON4SNAROxXLWM3VZEpU55lOapGqMwymMrGhdEIbES8VGVP2eGFyJ6lSx9b9M/IGCHQYXrZrl3TU67HF/u4+OJBvKgZgube7Yo6trxC5Js3woV3PEgqof8U18pCPe50jqblOt+gz1q92dswwjzSu0M4ElNNNSdqZD4CIKEwyP0tTj5kHyB+c24HUcz5GUAAiSLuL0jrsRBFybanNLeYPL2kZ2rkI72qWn6DLgnIAo6YmxI3cToXIk/UHbql/CbDHo6FYy",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R2_CONFIDENTIAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/context/intended_use_compatibility",
+          "option": "LIMITED"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/context/known_limitations",
+          "option": "LIMITED"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/context/license_permissions",
+          "option": "LIMITED"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/context/population_domain_coverage",
+          "option": "LIMITED"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/context/redistribution_constraints",
+          "option": "LIMITED"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/audit_status",
+          "option": "LIMITED"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/consent_ethics",
+          "option": "LIMITED"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/geographic_restrictions",
+          "option": "LIMITED"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/lawful_basis",
+          "option": "LIMITED"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/sensitivity_classification",
+          "option": "LIMITED"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/collection_objective",
+          "option": "LIMITED"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/data_controller",
+          "option": "LIMITED"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/source_assurance",
+          "option": "LIMITED"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_002/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.678326+00:00"
+  },
+  "client_003": {
+    "client_id": "client_003",
+    "evidence_bundle_artifact_hash": "5abcdc55dacf444d2778856e47601e3c66fe1cfcd11f408dee5c02670b434423",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_003_6ed2f2b0e8383d02__5abcdc55dacf444d.json",
+    "evidence_bundle_hash": "6ed2f2b0e8383d0267cf147a8153284e6203895d9dcd69d68adb90c1d2035f9c",
+    "evidence_bundle_signature": "CZ+V+n2h0vJgqnv+RsbSQBqApHrdO6BEGfYsPKxRjyIlt8Wd0OxQ3fsHFebesVmUFtfxwFwjvfnDV8Am/6nqdRL/OE5lc8Dorg5PoMKej5aQqhnoBkb6e6WgBlVz6usU7VOFT2p9p8MElpaDl2TaNDz+lEhmtrFtafi8G+04G00cmWSyilxMHBejdeq8r+YNexvobVkSnXeAUVYBujmkHt9n7jP66OM09jclgLze7y8O5/hJa+8pAIEruzzot5N/ASYBQM8/WVefzjEX7IhFIPIZH0Otdw7VcdJf3/2VfEsvFZzEenWTuffl+AW62U0vXBB6rNFdYpYfJbY5+6IiLqcGTU12kcQpq/CpuRexVUldWTKQJEiqlod/KY6HSlGWrhAT4xkdNawdHgw4wwf/dA/3h/0ZZWyq7FvNFLtaQ/30ux/POhNdjHoQhbcX5g/70qdlfIqWt/+MuuzXkyzv15BQF4DP0Ja5Q+Rn+7qL0SaQoVsonM+wSIvrbDuQLHMd",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G2_STRONG",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_003/risk_archetype/R2_CONFIDENTIAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_003/risk_archetype/R2_CONFIDENTIAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_003/risk_archetype/R2_CONFIDENTIAL/confidentiality",
+        "option": "HIGH"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_003/risk_archetype/R2_CONFIDENTIAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_003",
+      "dataset_commitment": "526ce5b5b7a6a8e164a5de8de0530f2f70860819b5ea78867621b19e01344ecc",
+      "dataset_version": "client_003:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.379912+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 50,
+        "n_positive": 21,
+        "n_samples": 71,
+        "positive_rate": 0.295774647887
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.0,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "P3xGw3tFdgPTsLlXmdXoDQv4ddQCg+YXADdl5YmnQhphjjjJVrbGcr/ZBmZpRodeS0hvrAluh41DqeoQ2I0dKDi964rabVL2oW6/r6YaKCQBri1soz3X2lC84VyCmAgRg4rM8M1rhYy9jL8SjZPpaSdAtqF6De2YvuEWtiGNznoreN3/Ky4xhLTAd192aw74YnM5ztHORXeGQRqpPxj7IK5JfafLaK+Gva/2ueHT4dzRGfexEc/atX8nVpxFRb+RKSbK6Ey6HXNwynB8UX5xmSs7vzkbAWLiqVH1YMsYJqHB/rvn9QU7M4Jrr+pspZrR3axKMgAC7Pke1EJ2FCI3kviu3uJGoZ+Ej9uvAQvB03iEn4YUMhXxWA4AXkV76RUSScq6oCvwkbLGCETvqQlIs4+tb3++1L2u0C0+TKH9cYnKRscm/foZDyx8iP3UfdYvFCIdaiW4E5Jni4HUtXfKkSdzGxj1hrLjCsNRRepMQsxerKZ4SEeseW885pRt5iWk",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R2_CONFIDENTIAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/context/intended_use_compatibility",
+          "option": "STRONG"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/context/known_limitations",
+          "option": "STRONG"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/context/license_permissions",
+          "option": "STRONG"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/context/population_domain_coverage",
+          "option": "STRONG"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/context/redistribution_constraints",
+          "option": "STRONG"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/documentation/collection_protocol",
+          "option": "STRONG"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/documentation/data_dictionary",
+          "option": "STRONG"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/documentation/definition_updates",
+          "option": "STRONG"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/documentation/version_history",
+          "option": "STRONG"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/regulatory/audit_status",
+          "option": "STRONG"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/regulatory/consent_ethics",
+          "option": "STRONG"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/regulatory/geographic_restrictions",
+          "option": "STRONG"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/regulatory/lawful_basis",
+          "option": "STRONG"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/regulatory/sensitivity_classification",
+          "option": "STRONG"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/source_reliability/collection_objective",
+          "option": "STRONG"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/source_reliability/data_controller",
+          "option": "STRONG"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/source_reliability/source_assurance",
+          "option": "STRONG"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/timeliness/freshness_requirement",
+          "option": "STRONG"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/timeliness/refresh_schedule",
+          "option": "STRONG"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_003/governance_archetype/G2_STRONG/timeliness/retention_policy",
+          "option": "STRONG"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.687095+00:00"
+  },
+  "client_004": {
+    "client_id": "client_004",
+    "evidence_bundle_artifact_hash": "3173c1bae9d9708acae329ff2a1aa34bfe0da59d640b419668b1656b248489f9",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_004_dad7c8656a99ee3e__3173c1bae9d9708a.json",
+    "evidence_bundle_hash": "dad7c8656a99ee3e1bccf0d1ec2fa09724f35a4b8ef26b4dfa69aac2519e61a2",
+    "evidence_bundle_signature": "SxQUCS0at434JbY9pBqm9YvftfTcWZdvFHt1WW2u1Wn/1X78onLNFo1r3hdL9Tjn1OtAyeYGUFGih/q2hKhQjzzys5qchMxH+KL7onWVgYgyE2TkzwKODmeeX8rShxCA/q7TC1+UVaN+NyGTNFt+j1GlB24i2rKI3MLEjZsyqEjUfwsVgyQj8GkqPcqMoU0l2UbhOhrWNlNzy3sK2SrgobvhVPj2VfzPG39C4HOG/2fK3Xb0gVNW4q8U4zF76tgVaO2+TRwEibrfsr4zrYhaKRKfeK6e5PwsXwtA1U3KpEa6kCNpN/oj5+sv2a9Hjwrwg9WbgkTHlAPKIZ599tgZXY69+e/THdB2/qsYjZEpejiyNnJNDF9d0Z7NTJF+sWVAiao8xpVV+gNg1k8YwO1a6Nd+Cxvi2vjCEkDJKCmUkDR/4O09L/PTtZXzHCE1EQSc51TIfAV+XEt9v0ZZivyCPoThMWMc3kf3CYAwSl9aFSsiCzy6abVtf+aX3+vsMKj8",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G5_WEAK",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_004/risk_archetype/R3_HIGH_IMPACT/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_004/risk_archetype/R3_HIGH_IMPACT/business_impact",
+        "option": "HIGH"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_004/risk_archetype/R3_HIGH_IMPACT/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_004/risk_archetype/R3_HIGH_IMPACT/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_004",
+      "dataset_commitment": "489d80b0a5201e97141c390dee25e832d8f656541099391982c7099a5657323d",
+      "dataset_version": "client_004:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.433963+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 30140,
+        "n_positive": 42,
+        "n_samples": 30182,
+        "positive_rate": 0.001391557882
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.008249950302,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "MOLULqF6uR1tRSCLB0RGB8m/XTl+Xcv513YVuj+xYGHdRc18GgCIr7rZnR94RotCR6rkBCT2RM/8eOrUGAdZ1KD43Q5D7oKI890J6vHKNIZgz73+2ZP0FI2BvPgVCkUKC5Wrij6tMt8tEmQ5ANTqwfvsTSuQCyae6Hg7XudzpTzUnVLxOv+xL8pQXnFcvjVGQHC8gbzibT94xLa3aWFfHp2Ydpyr6d5W1wDh93uWgPMRaEj0H0ksFACi9ebkVwhtUcmD/JZoWlOAHCuKhkyqPpTtPDd4sXIUek+03MoiYzbA4DEIY3ycAqHEQ6kgv4E2FPgAtlX3dMpLbR1Zmp4WHnm4Duconr3+DkWdRpDm9YHqTmPmPJKF6R8xxtplzElj2Orc5jiG1KpNP/imOpeth7cGaA5sLX7azdUKzI7davjXgddqktVFA6rl0z4+aVclS49VtrJYQMbbZYa3/Jqna67gWahHrrxIla56J8zofhyxD7bqQwiHaLQ40AgnNUPl",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R3_HIGH_IMPACT",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/context/intended_use_compatibility",
+          "option": "VERY_WEAK"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/context/known_limitations",
+          "option": "VERY_WEAK"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/context/license_permissions",
+          "option": "VERY_WEAK"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/context/population_domain_coverage",
+          "option": "VERY_WEAK"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/context/redistribution_constraints",
+          "option": "VERY_WEAK"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/documentation/collection_protocol",
+          "option": "LIMITED"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/documentation/data_dictionary",
+          "option": "LIMITED"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/documentation/definition_updates",
+          "option": "LIMITED"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/documentation/version_history",
+          "option": "LIMITED"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/regulatory/audit_status",
+          "option": "VERY_WEAK"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/regulatory/consent_ethics",
+          "option": "VERY_WEAK"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/regulatory/geographic_restrictions",
+          "option": "VERY_WEAK"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/regulatory/lawful_basis",
+          "option": "VERY_WEAK"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/regulatory/sensitivity_classification",
+          "option": "VERY_WEAK"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/source_reliability/collection_objective",
+          "option": "VERY_WEAK"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/source_reliability/data_controller",
+          "option": "VERY_WEAK"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/source_reliability/source_assurance",
+          "option": "VERY_WEAK"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/timeliness/freshness_requirement",
+          "option": "LIMITED"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/timeliness/refresh_schedule",
+          "option": "LIMITED"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_004/governance_archetype/G5_WEAK/timeliness/retention_policy",
+          "option": "LIMITED"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.695843+00:00"
+  },
+  "client_005": {
+    "client_id": "client_005",
+    "evidence_bundle_artifact_hash": "97c83dd687b5159747157f65caa683e5d49c82318768d3e4f8df631a25501d00",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_005_f73bfaa62b2a1165__97c83dd687b51597.json",
+    "evidence_bundle_hash": "f73bfaa62b2a1165b02b5ad1362518d3b0228be9260bbb3ef32d6c946fd75f51",
+    "evidence_bundle_signature": "COYHQsCCHCDR3UF01qjECTQIDZRBY9esv99fBGjA/JvHD5bHY3oXAIJ5tRerIfuZhrtOo2o9SkhEGuuE+nYlQ7wMgShNhgcnQ9j4n42P5PWZa9Hpws++0H4HGMat8li7X60VS4LWSSv1DXwaEKySrxfLsTt/JpZDEPBE/37zzZIrFskXAoVRVXF3qZgtub819mbA8/WesoHwUVDYnG7Q/bZv37+hP3N+DPddcdHVErMm+LXbRrXuy1G5OAc8aXdv3zbfN8mv5PvaU94M2x6zuJH0VIw2x/otFhfUaIyV3Z8wdCKN2i+XqM3WQwS0VuaKOU2LJ92XGIMwgXDRRv+vH1BVjJ0ESzgncxE4v6zZ6y4Ne0bcN7HuamoBx9GGSXTO9+J7ep8TZIwwyMoyHo6ihvTYuIw8mtVOKnzkFKvsl14WysNiRlXBCiD5eC2A3MCDATR+KzF1vdbhPg3hcodyFsVp4s+e3ok8U6akcjA3k5g0A9i2Igqnju/KS0CYMGHX",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G3_ADEQUATE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_005/risk_archetype/R1_INTERNAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_005/risk_archetype/R1_INTERNAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_005/risk_archetype/R1_INTERNAL/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_005/risk_archetype/R1_INTERNAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_005",
+      "dataset_commitment": "0cec65b14d295f07081895f6d8f94e8923e8f07f8601bd8f0317b342d6429d40",
+      "dataset_version": "client_005:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.454872+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 11473,
+        "n_positive": 11,
+        "n_samples": 11484,
+        "positive_rate": 0.000957854406
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.002873563218,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "G8Jpai/yF/ntQ79VOS6eYs2gwqKvQGzj0gsdhHwsbskwPx/kbhStnXUlz3JwbL1VFEaBW0Qb84sl8P2pcTcCAEVtH3Gh5m+nzHD39kc+Qf8fmc+t7PIw2pC5JcjYJEuhdLnncCZ0zIOqrSJHIpkSnyuFZ7AW4IGE2m2IPcquVLoUMQPCg0iWsJTKz2rl8/9xEzJveOGroRLsOLXOcCNJSJz5USDLkT6+ICO+y727S/YF5TvMLP6L9XkLPY8ReracM3eP9kIBG+2X8nMi0Z1IX7XYzbeuSl0Pd7PL3q7w85YT2kPrY/JceFwka8JHN6yp3siDZaQqG/ykxiwhgK9OLRlOS8aWLuJrlsv0tp6YFTxzgb2QUEoNGFj3AlxKb9+ricEVP3VMSDkzwe3oJ3i/hpvevr0jGeZSXa98Jwmg74mhPs73AGT/v8XUN1ITtJqVU8/I0QIJRQTSCAlcBqku8bq4TaTQIpqZIjlNDyR7hy2YLzaFKu8jgRGJ6eCRQHY3",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R1_INTERNAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/context/intended_use_compatibility",
+          "option": "ADEQUATE"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/context/known_limitations",
+          "option": "ADEQUATE"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/context/license_permissions",
+          "option": "ADEQUATE"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/context/population_domain_coverage",
+          "option": "ADEQUATE"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/context/redistribution_constraints",
+          "option": "ADEQUATE"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/regulatory/audit_status",
+          "option": "ADEQUATE"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/regulatory/consent_ethics",
+          "option": "ADEQUATE"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/regulatory/geographic_restrictions",
+          "option": "ADEQUATE"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/regulatory/lawful_basis",
+          "option": "ADEQUATE"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/regulatory/sensitivity_classification",
+          "option": "ADEQUATE"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/source_reliability/collection_objective",
+          "option": "ADEQUATE"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/source_reliability/data_controller",
+          "option": "ADEQUATE"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/source_reliability/source_assurance",
+          "option": "ADEQUATE"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_005/governance_archetype/G3_ADEQUATE/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.706002+00:00"
+  },
+  "client_006": {
+    "client_id": "client_006",
+    "evidence_bundle_artifact_hash": "4fc87689de38a600f8690ea7ce9aecda27131b7683303b6bb5357d5863101561",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_006_d428ba6146ba2cb5__4fc87689de38a600.json",
+    "evidence_bundle_hash": "d428ba6146ba2cb5c11c976fe0e8505279b441fd3f35cbfbf93b72d0f396d27e",
+    "evidence_bundle_signature": "Y3Ed4xujVllVZtEy0GwtuHv1NVTVX3L7yaRoQ5s67/RoghUi/y0JvLsKsxHLH5bueahEiWDreMqsapz+YQjzHLok6v17vakRAxDzY8hKCl47w5KaCqKyzNzATLn7RDRs3L5xSxD2cNsXn5Dpd3xffRjbsA977l2v/eN4PCoxZNUnR49X+cusCrYvU5DWgidqn4eIjO31IBwqgVyDIFoFB/3ZS3F8f0J1gfBLH86DeYfQEEEa2KPne1Gxm43ufAF/r2pk7/iG/qBkqQ/Z+eF8TNpY8h+IKBL1SJScqeT3S3+JVt/FCJtAfZLdiL1EHMpWqc1F9RSOGHoVcebpA2OnnNRGNe+PqT8DvAnD4QQDeKRl99XD5iBfIGAoQUjyh1bNG1pLaYGtroY8cW1BPN5YSksVUvbh3Ei1XhUXnDJfXCEEcxO5YQsbybfDfJlrCiwqk3HTFVe/wI0MvrhIAeYOqh4O+wYx5Pnf3DpmsCyWwp7h6Qxh3nP4a1zQ+wnlKgMW",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G4_REMEDIATION_NEEDED",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_006/risk_archetype/R3_HIGH_IMPACT/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_006/risk_archetype/R3_HIGH_IMPACT/business_impact",
+        "option": "HIGH"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_006/risk_archetype/R3_HIGH_IMPACT/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_006/risk_archetype/R3_HIGH_IMPACT/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_006",
+      "dataset_commitment": "426a2de18e796101a6ffa302e2f034b7009aaf189a8060c29ebf9ceb056fd06e",
+      "dataset_version": "client_006:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.461647+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 1725,
+        "n_positive": 30,
+        "n_samples": 1755,
+        "positive_rate": 0.017094017094
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.00113960114,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "ffbN+80RSyLFVv3863RR+NI446go/nsEJ5lZMbW+Vkd77QPf0MQDlnKTf8uiI46LfdogLN19YJho35xsiY5B5eyEk2TiJSJ46gaN5D7pyPF/OnmnwOcmcWVYIQf5pApup7bcPZFBHHM9Kj3TUHxY8J6PK7Iw/lhu3Hd/dgMicASaexgI69K2TvpoJp8QAoknv2yBDZCusZF41c+kGyihx/dIM6szmdq+ITQ2+ntEZDVkdvOQRrbXkhHCmRCSbTp2VdpiSRP8nEX27Nac8Pq6ifMlUrDeB6nPheWXokJ6Td+0s58CeSsdoJWDFXb+hUmc5FZz0+Xz/6HuLlyDRCfnY0ZWyos5KJIMR8RgFNOu2v/5PZDIWSDKy5a8yZlD5wz+X5WZ7skhwnQX63qzeqOtNMW+8XBwqJ6i8IzUR9SGCcR0khySHFUiuYYEjjMX6cP8PmqADyQqpsrDE1NDAVZM9bbwoDJw9Lvbgw+dI3esQbfP15iHnzJSMPFk6QXK4mbs",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R3_HIGH_IMPACT",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/context/intended_use_compatibility",
+          "option": "LIMITED"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/context/known_limitations",
+          "option": "LIMITED"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/context/license_permissions",
+          "option": "LIMITED"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/context/population_domain_coverage",
+          "option": "LIMITED"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/context/redistribution_constraints",
+          "option": "LIMITED"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/audit_status",
+          "option": "LIMITED"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/consent_ethics",
+          "option": "LIMITED"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/geographic_restrictions",
+          "option": "LIMITED"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/lawful_basis",
+          "option": "LIMITED"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/sensitivity_classification",
+          "option": "LIMITED"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/collection_objective",
+          "option": "LIMITED"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/data_controller",
+          "option": "LIMITED"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/source_assurance",
+          "option": "LIMITED"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_006/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.717659+00:00"
+  },
+  "client_007": {
+    "client_id": "client_007",
+    "evidence_bundle_artifact_hash": "7715b2825b0328c65604c43db2bd07527e8c2f7c2b56c2709f0fd1c8b8c215cf",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_007_02ca391d53860497__7715b2825b0328c6.json",
+    "evidence_bundle_hash": "02ca391d53860497a2c5119caea837bbb62cae9a60dcad2ed1ef5b9f3b531d73",
+    "evidence_bundle_signature": "r1fHCwEc3LOqFSD1+7rYHkEqN3zBc5VRRX+v03QjmMolOXOzrQAFTPd/g+Ctw1RWbhrhcJGOuKiqUfBGsbiVhfNG1qbYmV10+IURFCDrfuiKBUsaNHbHdjBwJE7Whx0QQE6TeDFckY2xxIJTn/CwSqKpbupBIv5+BmpfodthSk3Qxe6MxDEyD+Yk+9oqtBwYVrpX98zTmuYzwNOqIaZZHuD98aPW/SKwuuOgjAKIE1JuIh6d1sjZYcLJQSwduvgeuNf02DTKBt4LPlW7wZP7mTWnXafMQt37BkMN+QBASWqONn8U/cPOuUjqdEm06XBjIiK7act25nkDOaysDl9Urvnw6gQ3adINP3+k6RXJXUoOUljBq7N2hCli1IrYKXw8DHUpzOjXr4SPsGO8B4nFw4p19sJHuvOdITW86th4xKXWyQaFiHpzOqzmSQOiVg1qZEwgaLPNDmz8rBsDjinwiLytxlvPtqbny5orQVD0C6x1FS/32rnKZdwG3Qg7+6/z",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G1_MATURE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_007/risk_archetype/R4_RESTRICTED/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_007/risk_archetype/R4_RESTRICTED/business_impact",
+        "option": "CRITICAL"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_007/risk_archetype/R4_RESTRICTED/confidentiality",
+        "option": "CRITICAL"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_007/risk_archetype/R4_RESTRICTED/integrity",
+        "option": "HIGH"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_007",
+      "dataset_commitment": "30c3eff9b237a5eab372ea4df4d7ab531198f98fb17da15b33618f17327883f6",
+      "dataset_version": "client_007:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.479411+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 10022,
+        "n_positive": 0,
+        "n_samples": 10022,
+        "positive_rate": 0.0
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.004589902215,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "SJx3F2/ILzXeIoyrg/fZedzbJJitl0HxLIWFIaIOBUhkRcEi2ZWohnIQZkm0FvenHzvgQAHC6uUlMQQCGcv24JthJfnUdIXfJJ0MMVnHst2WTV50LIfmMyEBZx+liJmaoziaW4jfbdlk7CNyp4l6pal4M/vuqyGv8M+6ploPHGqTSxyiGMvmsGNIpD7CBoxN+eDsW1lv4G9qApRPOJDrC5phkBfcPjsiSWLDMkPUTSGFkfrIGaPi4gZCVAKnePVrKiMkZhdYLyaTVfEMkRaUbMRiHL01w3kcptuWV/8F818wd/3DNHMSc9Zl6wR1eBtd9jp7ByFpZcCCcaZQ7HsEjT1WL41QWUrTpaXnSu914aXxzg4fgzJftVNTzBoOjvUvX9FjZqb8gAbSmGaKbkVJ5vlZI4K4AUdcdmNClNRXMCfZS//balpE8SwIZquwszPaqRY1Z9p/NCYWrtGunr01DBcGDpKX1rwv8h2IN5U0LcXlf+Chj/R8xmUOQls5fEva",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R4_RESTRICTED",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/context/intended_use_compatibility",
+          "option": "STRONG"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/context/known_limitations",
+          "option": "STRONG"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/context/license_permissions",
+          "option": "STRONG"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/context/population_domain_coverage",
+          "option": "STRONG"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/context/redistribution_constraints",
+          "option": "STRONG"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/documentation/collection_protocol",
+          "option": "STRONG"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/documentation/data_dictionary",
+          "option": "STRONG"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/documentation/definition_updates",
+          "option": "STRONG"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/documentation/version_history",
+          "option": "STRONG"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/regulatory/audit_status",
+          "option": "VERY_STRONG"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/regulatory/consent_ethics",
+          "option": "VERY_STRONG"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/regulatory/geographic_restrictions",
+          "option": "VERY_STRONG"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/regulatory/lawful_basis",
+          "option": "VERY_STRONG"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/regulatory/sensitivity_classification",
+          "option": "VERY_STRONG"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/source_reliability/collection_objective",
+          "option": "VERY_STRONG"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/source_reliability/data_controller",
+          "option": "VERY_STRONG"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/source_reliability/source_assurance",
+          "option": "VERY_STRONG"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/timeliness/freshness_requirement",
+          "option": "STRONG"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/timeliness/refresh_schedule",
+          "option": "STRONG"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_007/governance_archetype/G1_MATURE/timeliness/retention_policy",
+          "option": "STRONG"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.726934+00:00"
+  },
+  "client_008": {
+    "client_id": "client_008",
+    "evidence_bundle_artifact_hash": "cef448db1dfe0348d86f343852eeb9a025312eaa82381712515e6bf940674f40",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_008_f2992393b47ab2d4__cef448db1dfe0348.json",
+    "evidence_bundle_hash": "f2992393b47ab2d400bc28cc1c83e7f89c64bf7bbf7af8b41381c89f91c8f845",
+    "evidence_bundle_signature": "YP3QwGPln6ovfHWgU71ePiPUxZ2z2/Hu7gY3Rk78mJTxhhFlc+vWXHipIa8KgGxhh4l4N8dEjJJW6S08WJw/HhJkSLLpJynmi7MNA+W/6i5h8BbcWabRoNXIqe3ise7B0uRTcJH+RVPNU7D04JE5ImMyju3nrM3NDMRTffPf6sgPjiQReDz5lJ9l5YhfTQ9qkbJDaPfD3yfTyQbYuT9JIvg5R3OdafDyuXgW+VE8wfFSFdU8femthCuqxgv2EL6MAhSRnrl0y9jPyVmLtcqiqQezjooJidRKBlECrVVt4t4Z4qNrlHSPEyQ1tnr4+Q7z2c5rQMG2XiJHw1qyNpgaXpbT39jrNSY6lBY8jE/jM1zpb0W1cbAmHwbuvR+RbKDZXXE6oKlCKJ2F60KQmn2GgMeVTHDZoXsqpFzgakzI/qUcAk8wcpqc3/gZDEXG2zurRnOTA3Ts74G9vCXjY/LSEFUf3xbv++2SJOaiW/X2C292Egg+wE0R1QHkEcryJ8HV",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G3_ADEQUATE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_008/risk_archetype/R3_HIGH_IMPACT/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_008/risk_archetype/R3_HIGH_IMPACT/business_impact",
+        "option": "HIGH"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_008/risk_archetype/R3_HIGH_IMPACT/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_008/risk_archetype/R3_HIGH_IMPACT/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_008",
+      "dataset_commitment": "8e5a3bf235a819a2607952fae6c82288a6ab1441936af8ec3f6fd6c6b8a4656a",
+      "dataset_version": "client_008:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.484275+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 443,
+        "n_positive": 14,
+        "n_samples": 457,
+        "positive_rate": 0.030634573304
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.0,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "MqdCXnrHEj2G5CEtmJHOM8eHL7PNByIBaPLbmMMaFzd+RZiAQNykv3+zcdmphWOb22AHZ8jjTvTZj/Ljif/xnCeSbzG6Qe4n2Fef1VieJ+2RDrx1f2LOcTAIy5KJpE12se2yFQok9+9f6RlrcIpLDlcFgvWrBNMBx68HyeA32yVPxyIZsYnWkm3H65mgZTmd3uogOeyNXNxcqyFWiaFvSEcj3AqUg6PP5sRaFrl1BudXBysOeN9JHR/zVs2REHn63sALnwCBZCoSh8aGTVEO4YMdmb0eush2TzsOVC4WkDQU/az2M2PbgIqB64M2P83AM7wk8vOsihTEJXuSXCRSxaUuUyKQBuoNKVSv4ViUIoal4M7Q3dR8tTn+N0FTcm6vZttiVOxRCLNTpewphRlHksAIB9GxJb+Sb77G261HFSe8VwswigDZq8R93/bi2Lj43PELGgQgQY+s2sJ/a9CuDsUFjVwsL/icuRY3vljtgML12YUgR4KtvQ7kw2StkBDg",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R3_HIGH_IMPACT",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/context/intended_use_compatibility",
+          "option": "ADEQUATE"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/context/known_limitations",
+          "option": "ADEQUATE"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/context/license_permissions",
+          "option": "ADEQUATE"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/context/population_domain_coverage",
+          "option": "ADEQUATE"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/context/redistribution_constraints",
+          "option": "ADEQUATE"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/regulatory/audit_status",
+          "option": "ADEQUATE"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/regulatory/consent_ethics",
+          "option": "ADEQUATE"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/regulatory/geographic_restrictions",
+          "option": "ADEQUATE"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/regulatory/lawful_basis",
+          "option": "ADEQUATE"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/regulatory/sensitivity_classification",
+          "option": "ADEQUATE"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/source_reliability/collection_objective",
+          "option": "ADEQUATE"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/source_reliability/data_controller",
+          "option": "ADEQUATE"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/source_reliability/source_assurance",
+          "option": "ADEQUATE"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_008/governance_archetype/G3_ADEQUATE/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.736829+00:00"
+  },
+  "client_009": {
+    "client_id": "client_009",
+    "evidence_bundle_artifact_hash": "547f9a3f214fd2f364addccf0bce747f93809b16314c4435d825952f39ff04c2",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_009_16202ea4e8a2c9b0__547f9a3f214fd2f3.json",
+    "evidence_bundle_hash": "16202ea4e8a2c9b0e01f07f96ce49e7da9b0fbc96727b65f4f2b39ef93244177",
+    "evidence_bundle_signature": "PEcjRmaQvEdJrM5Ktch1zTUrYtkhDKRYxSLUnOAmDFx4J1ELMwhzhD+9xD+FIJABRRPGBVikkijuclfKj3kKs7yUgoVWRz3lw0deM3y+OVwicFS2UKq/xzuZX8z08m2bKeOWoyc9D47g3z8Dsmz0apvDkFOVJREOlJ0rUcjuwHWi/co/97uY3JxMSnVU1P6HCfBkIoFzGSHz2gtv7QCpqigGGXGOOwfq+06CtSpxnCzJvfIB6kURM5yb5L1emTROTgKInYApZ/3LAxGu5Nv1oxKFybeUmZOWyk7BiGCQnCNnnJET984L002BW6q/psG0LRP1ZDYnYbVR602AdM2wUvxTgniLGZJKPu4k+5pC+z/NFOQm0oZNCzl3nOZkP/x/POZF0g4TNHXU6j5iqri1SbD309xE6rUftqVc4elTUYwSzDpC0W1yPLAdZEitk5k4KEfIVpueFkfwb2onGiSiS1sxMce9iMF8JBzOFEWzlKc3M56LPw4FH96BDNiIlkOS",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G5_WEAK",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_009/risk_archetype/R1_INTERNAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_009/risk_archetype/R1_INTERNAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_009/risk_archetype/R1_INTERNAL/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_009/risk_archetype/R1_INTERNAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_009",
+      "dataset_commitment": "cf0b3a7e24ab42504eb4dbe3b3f7b580e8973a11c57a68b2b90044fea7b6d4d2",
+      "dataset_version": "client_009:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.493212+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 3433,
+        "n_positive": 22,
+        "n_samples": 3455,
+        "positive_rate": 0.006367583213
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.001736613603,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "r3I4WHk4qQBPLgGTp2YHtDuJh+1+/JRTUhv5JtgIVUPNRtACKXwWlXuX6jcwg/48rY3f3thsuek00hzVpdvxZd8lCNoWm8s3SuO5w7J2rAU0mZSGXbNNzd55RJ/KSJQySLpgNZkA0prfuvwzb3jnUg9+bOQN2xCYu4K2qmYTs3maarRn3aGiK8Z5C23OXo0JrKOwWRfr1k8Zp0LnqqmUTV0tvG3m+3aH6UK8zFiVmXcOLB3utsGLpJg3nm4h23PX9RDeTacgiHFUcQLPnC/yKOOJp2OC1doGJ4EmUDZQx62sYPhPw8/c8cJT2mZQYkD2oHZwxCKTCsEtuuw4fUHCjLFU2+UoBJA7bo/h7987Z7G/0TW6cvnr29y+/z5KnM8nM346lRYqAtyqVZlWn5xhq0orACojwlc1wvyOMXtrfctNu2F8KQoP4thdDqFH4lts5mR+LmtKYo0NdIg/Nc9ehB6upl0E5JYH+6V7BfMaefpOFnNAI8K/RIzIRpI3VvOT",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R1_INTERNAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/context/intended_use_compatibility",
+          "option": "VERY_WEAK"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/context/known_limitations",
+          "option": "VERY_WEAK"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/context/license_permissions",
+          "option": "VERY_WEAK"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/context/population_domain_coverage",
+          "option": "VERY_WEAK"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/context/redistribution_constraints",
+          "option": "VERY_WEAK"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/documentation/collection_protocol",
+          "option": "LIMITED"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/documentation/data_dictionary",
+          "option": "LIMITED"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/documentation/definition_updates",
+          "option": "LIMITED"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/documentation/version_history",
+          "option": "LIMITED"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/regulatory/audit_status",
+          "option": "VERY_WEAK"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/regulatory/consent_ethics",
+          "option": "VERY_WEAK"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/regulatory/geographic_restrictions",
+          "option": "VERY_WEAK"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/regulatory/lawful_basis",
+          "option": "VERY_WEAK"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/regulatory/sensitivity_classification",
+          "option": "VERY_WEAK"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/source_reliability/collection_objective",
+          "option": "VERY_WEAK"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/source_reliability/data_controller",
+          "option": "VERY_WEAK"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/source_reliability/source_assurance",
+          "option": "VERY_WEAK"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/timeliness/freshness_requirement",
+          "option": "LIMITED"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/timeliness/refresh_schedule",
+          "option": "LIMITED"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_009/governance_archetype/G5_WEAK/timeliness/retention_policy",
+          "option": "LIMITED"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.746809+00:00"
+  },
+  "client_010": {
+    "client_id": "client_010",
+    "evidence_bundle_artifact_hash": "3568c0979a5d22525a25750a1652edf9259261348170f57fa2421fca414985ca",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_010_0747d47577452b89__3568c0979a5d2252.json",
+    "evidence_bundle_hash": "0747d47577452b8923427e26a5dc381e2acfade0ab120857ab46c142b1cefc0b",
+    "evidence_bundle_signature": "b8HBLKkqB6QJEneIyH7Qd1GK6nZzD9UOxZwQDPZLHhy0M9iTkwnVc9mL+2UFGUZpGKaGGx8XzJ5z61hREAbVYZiX7FlBTFA+TDmEAPewuM7dww6eCVdZMUFbR6RtcsDHHddBctq8xgypaaxJ6OIGmi0hCBX2z4ya8+zh0iK9RbHg25ChA6/zp98gErHjO13E7kvgfhn3mCaMSOhZLdAXzA6DT1QK8rfJIJtB1qzdkdgViE4m1BqvJSPl2CHj9angKVNPv8HsMbTK2juKCiK6TnHq1I4jhVYYZfpA2AamWsu3KVUiMfUYYWkxYgQZcngqAz0M3Khzhr5FIeU5hSQt+iQoS8PMhkrUrF3Jk96NL+kmCM+KqYGE0JgMPahdHoNgovluoE1LC2awtkcxVahd1a72JU7gXlENR0XX8vTRaywqmFdEFnftl8atFbfxBIwiy+qDSwgcMkLSR6eAiwJlnZ0sRk7a2rmVFLAapMguxoUdk4fVvvZjclUws+e0QGv0",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G2_STRONG",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_010/risk_archetype/R2_CONFIDENTIAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_010/risk_archetype/R2_CONFIDENTIAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_010/risk_archetype/R2_CONFIDENTIAL/confidentiality",
+        "option": "HIGH"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_010/risk_archetype/R2_CONFIDENTIAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_010",
+      "dataset_commitment": "8d23da0b34e6669ee69b20bae51ce50232424d0cf9455063fb97f4d3d5c30d10",
+      "dataset_version": "client_010:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.502155+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 3655,
+        "n_positive": 2,
+        "n_samples": 3657,
+        "positive_rate": 0.000546896363
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.002187585453,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "VCWtY+ZA1ObW6b/+ycVv+Z+iWUGchDagZKcVkelnU9u7Y3wvD1hO0klo8NkI/wnc9p3TR9XxpvNhJYmTBxtmQxpEPkuAJqYZhZI/0h10+b+vIWfYpVsdnapMwBQpaUXpvK4U4AYorIBUV/BVjhnt/oD7vSRpba2Y/42NAY9aXuWGxvvKzZNxS4YOvvwbcLRWjJn/tck1F/87fospLyTyP9fYUs4spnH71ms26kguq1KGhD6vM8Cex8/Z2SYmLv6f+pgfc3ZBC3systgbCnqg+fgTRLth4WDIWsE4mX2FJ9PxgwCGemamkk69VOEGviq/pdWzE8jn5ysl6+k+L2oOHcgJ/QreI3VUQMwB7yoIJBEieWYwl+kYdQHSEzf9U8WPL4WF8YxrW1c1kiGXmbULdTBCYAqYof28fpYNpqxCDVFwfek4YpHihsT0p31RU7Xe8azGsZEkApVhaXSvIYi+B+fK00fSV2eC1XCHbe9KzZvl+66ukLZ0pIbNcFj0Gjop",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R2_CONFIDENTIAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/context/intended_use_compatibility",
+          "option": "STRONG"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/context/known_limitations",
+          "option": "STRONG"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/context/license_permissions",
+          "option": "STRONG"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/context/population_domain_coverage",
+          "option": "STRONG"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/context/redistribution_constraints",
+          "option": "STRONG"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/documentation/collection_protocol",
+          "option": "STRONG"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/documentation/data_dictionary",
+          "option": "STRONG"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/documentation/definition_updates",
+          "option": "STRONG"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/documentation/version_history",
+          "option": "STRONG"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/regulatory/audit_status",
+          "option": "STRONG"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/regulatory/consent_ethics",
+          "option": "STRONG"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/regulatory/geographic_restrictions",
+          "option": "STRONG"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/regulatory/lawful_basis",
+          "option": "STRONG"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/regulatory/sensitivity_classification",
+          "option": "STRONG"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/source_reliability/collection_objective",
+          "option": "STRONG"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/source_reliability/data_controller",
+          "option": "STRONG"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/source_reliability/source_assurance",
+          "option": "STRONG"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/timeliness/freshness_requirement",
+          "option": "STRONG"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/timeliness/refresh_schedule",
+          "option": "STRONG"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_010/governance_archetype/G2_STRONG/timeliness/retention_policy",
+          "option": "STRONG"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.756935+00:00"
+  },
+  "client_011": {
+    "client_id": "client_011",
+    "evidence_bundle_artifact_hash": "726342324ba670569fb60903825b9f1b4d25c58656c78cf8b0d06506a6dcb2b6",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_011_d628a6da962c4f45__726342324ba67056.json",
+    "evidence_bundle_hash": "d628a6da962c4f4580fb606f5d428b97352be4aff2b1ed7a8430a94190d0f5b7",
+    "evidence_bundle_signature": "Kw8/JyD+sJKW94urGslS1CN59ZeubyL36Ucf29wjkrs665kNECsuHNbR9JVmCAW3lT/DTPgETjh1nSC6CPh8a4CW4Ad3oq8yix7ALDm/7jsf3UwuRCNseeoiWO7KsQ2rzwWZibRtFA/x7T+W+cqODn2JinbdtvYGpC7dPzHd7Fm8DvUZBM5AbK1k4BTEIfxk15J33CllmS3upfBZB+7fVb6pmS4/YAGk38nm83flfGIBJxNzELI5jlEA2qq8o2vBdnrRTvu6RRvyQgz9ySjvFHpr2Alc9NO0105yiRtdQl4jwh7o0vqSbJR8TIYq29F0D7/ourwaj8ZkY+RwsNU1Lrp0Ti3bliQ2tWE3J4fericddRoKaKVwAqoLsuvFofP0X+erEbiJDYHzPRvLfL0O7IiwojLugVliA7WadW6Cy/0qWaXthRBJvBoGQ43b3TX9m9fYqzJWY+4Wwapb6F074yUHa4kcic2t6qCKqqwFQV2kgYae5nK+5iwrwKndPnfq",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G3_ADEQUATE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_011/risk_archetype/R4_RESTRICTED/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_011/risk_archetype/R4_RESTRICTED/business_impact",
+        "option": "CRITICAL"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_011/risk_archetype/R4_RESTRICTED/confidentiality",
+        "option": "CRITICAL"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_011/risk_archetype/R4_RESTRICTED/integrity",
+        "option": "HIGH"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_011",
+      "dataset_commitment": "6a739f8d69c325eccb0c8e896cd726aee1edbb4f541d4df6fc8b3e2d7c65aced",
+      "dataset_version": "client_011:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.511627+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 4081,
+        "n_positive": 9,
+        "n_samples": 4090,
+        "positive_rate": 0.002200488998
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.001466992665,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "Jevc5ZhIO+WlKTGhXh6/d+cmKrLMjMFUjsP557m/m6dgyIwbWVrE0SYQncc8X4K45G4bkcyOjtFZUQMBP/pA0Wl//A7dB/DDorb6yyDjFD9D+4gkHTQok5FJykzCG8Bp3mrOqDdbyWbBC5CyPxW6ZV0tYCyAoZKmFaYYnVybiO2CFPt5CMQHiN6sPqism3bpTLu3HJQg75CQa6ZMi//iarqsaV0wC5S6gh+9ma5nTY9xsa2Yr00QqQ+UAUaj4AnB6HvDb7xmIMRkNT2ZOXEaFaff2FkG20RXojUbGy5RJlFKLPzjCxiUaaEOkNsenP14I1NxDBjXl7y5AkPFIeJKydUkHnLRAtfk/imcyYhCg8Xgh4b6+QcpnxMZXn6NeaPugHpCrj+SEth/kiKQhYiFDpfdfs+z2mNKb7XGo4zBcr7Y8WOeHdBOn/WvanbY0pGC7nSWZT3FsZhFCCybeeaG202QNYliMfXnXCfwQJ5gCNITeC7EDUxJ6PS/1ndLbTlP",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R4_RESTRICTED",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/context/intended_use_compatibility",
+          "option": "ADEQUATE"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/context/known_limitations",
+          "option": "ADEQUATE"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/context/license_permissions",
+          "option": "ADEQUATE"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/context/population_domain_coverage",
+          "option": "ADEQUATE"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/context/redistribution_constraints",
+          "option": "ADEQUATE"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/regulatory/audit_status",
+          "option": "ADEQUATE"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/regulatory/consent_ethics",
+          "option": "ADEQUATE"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/regulatory/geographic_restrictions",
+          "option": "ADEQUATE"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/regulatory/lawful_basis",
+          "option": "ADEQUATE"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/regulatory/sensitivity_classification",
+          "option": "ADEQUATE"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/source_reliability/collection_objective",
+          "option": "ADEQUATE"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/source_reliability/data_controller",
+          "option": "ADEQUATE"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/source_reliability/source_assurance",
+          "option": "ADEQUATE"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_011/governance_archetype/G3_ADEQUATE/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.766853+00:00"
+  },
+  "client_012": {
+    "client_id": "client_012",
+    "evidence_bundle_artifact_hash": "282a3178997782acb645c6cb5adf345427680e1f17d99b411f82c349fe49b626",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_012_a53cbee5916a8255__282a3178997782ac.json",
+    "evidence_bundle_hash": "a53cbee5916a8255238ffb2af6ab54e3aa850b9e88f24328559da73d9e587c95",
+    "evidence_bundle_signature": "I0jT/KRQNg6gCuIMg25BHfM+QfurP4Ml+7QZXblYhHA2j1QEVF1yBRmCMank+nelH7QhiBEQB3zwy6F389omHrkzkbH9g0BLfwrr01N/iDuP45WBZQ2fpe2d9ZK63bvIxbLYzfZR2WE7G3eIZIyJ1Lse2rVj9bED73J4RIzw2i7c1c1PyTxitpQJl1BjxUdJr8rerJ9F8jxT6aREHhQ7zrThApDSZdK4SjuvmabzVWRuiyMifYJC/zqo7JZZnJ2ngzNBAjv9l/ZFXB1e2th3A4eXpelqb8zYwjDeH7BPaIQ2aHEhvpHNXwUcxxtBnDRF+yZSnuDGwnOpMuib2DJhL0BLPqSkxkU0UKSetYxa8N6AHKISbSyofmfqHfjAJOrbuDPPOPUEIjmUQlR2G6RDpJzeN8ui5Y8uCawlfXdC8a9BSEUba6rUXgmjO+cSZO31cEgnyl5uCTI28OroETysI/Fzj16qCIAyZsswFVaKE9tfRziN7MCW1J8pfgPdlYzc",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G4_REMEDIATION_NEEDED",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_012/risk_archetype/R3_HIGH_IMPACT/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_012/risk_archetype/R3_HIGH_IMPACT/business_impact",
+        "option": "HIGH"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_012/risk_archetype/R3_HIGH_IMPACT/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_012/risk_archetype/R3_HIGH_IMPACT/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_012",
+      "dataset_commitment": "9dc10cdf3d7a09de977568de72a06190658a4ef9582e4d1573bcf8cff65bbc06",
+      "dataset_version": "client_012:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.526854+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 6990,
+        "n_positive": 7,
+        "n_samples": 6997,
+        "positive_rate": 0.001000428755
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.003287123053,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "gMcHmlUj+eHCRQPQ2MufmPoRP76QSzbAcnke7QEOeyyaLs7BuWFt2JV7b1L6SmfuiCPZmm7KC6y+ko7ked6rJVLw5eMZLmm7Ss+TnDmt/S91GR8i6KQIdp7g1VNdW7DfIKnZU8MNT5Kdfsib0fZuRkmy/kK9fB9F0YXKqxVH589k5sDiMm1Ya+HXVII1XCkYIEaGI0kH3q1xoUUPKDXDY5Pe9WE4LjxviPSaMcthF0UnbHbUWVJFb5CdB3EhvTrTQjnPJZHuOtPR0dEXz8kFNS/0OVFAhOfosTyfDn5truByWvXgPGnKBY+Y19smBz81vDa1Bo6npILkGBjpODedzhX0/7urm6sWXvA7sWXbdlqTRd9HtgMKmskWg/Y91lamlRmTBawInhu0//asnUVZLHYu3qvarrWqH/DUK0k+Q9b+XwWbuZHcr6C+x1FJQU9qYbi+Pp3ToUscWZzGpYTrylNrv15wc7ktkPIocT0GNIDgo8HsgHLrQOospG/KbQ3t",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R3_HIGH_IMPACT",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/context/intended_use_compatibility",
+          "option": "LIMITED"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/context/known_limitations",
+          "option": "LIMITED"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/context/license_permissions",
+          "option": "LIMITED"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/context/population_domain_coverage",
+          "option": "LIMITED"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/context/redistribution_constraints",
+          "option": "LIMITED"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/audit_status",
+          "option": "LIMITED"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/consent_ethics",
+          "option": "LIMITED"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/geographic_restrictions",
+          "option": "LIMITED"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/lawful_basis",
+          "option": "LIMITED"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/sensitivity_classification",
+          "option": "LIMITED"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/collection_objective",
+          "option": "LIMITED"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/data_controller",
+          "option": "LIMITED"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/source_assurance",
+          "option": "LIMITED"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_012/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.776953+00:00"
+  },
+  "client_013": {
+    "client_id": "client_013",
+    "evidence_bundle_artifact_hash": "060e5e7e66b31ad1a327198c591434e633b359df34a92dd06c3861618a425dca",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_013_4ce46122b34835af__060e5e7e66b31ad1.json",
+    "evidence_bundle_hash": "4ce46122b34835af620f4ffeaea8a8276a8ba9925528910bb96cd066b2998186",
+    "evidence_bundle_signature": "cMZA7iDrMOjSFayTGEutsKGM0ojBpkYCwZ68QaVCeZFgzlk7p8pdvAxQMfWiM1wCsBdvctFvvTSdiYDR3hoV0o0lcLuYSre/d+CdgeY3lPn2yWkg+BwKrWKW8D+vDp9LlXJT+PZEX+P92eRWQaZGFbktiXWrQfAZbjXfPVBIP62LfzMUj7X2Ro8mdubs+68eQVpEy7tWj3xhzbKub9FHDNgzKYEdKDSu2USHKqRbSP5hfVLNSURRKQCg5EPUirio3abcsyol2dsQpoaLP8CItfHxkP8jYWHIX9Wwm1CCB3XWr70aqsOel24rIWAXNNOLkN6UYg9ISQqucCYmveYwEQpCeO/ztgei1lCVeMehSHwvxRMnUxUVglBU6f04UNxXu5q75XmiQ4qhW8/Cmm6lzeEcdS7rvulkDZqTjXML6WFDm9RE1P6pvfEBXDktPFRwCZUdICSimjQMhW3OHt0CXslNEvlYSTX+o4uvlNqG6CH9KmjTDuIIOC8+i1gBlm0o",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G5_WEAK",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_013/risk_archetype/R1_INTERNAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_013/risk_archetype/R1_INTERNAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_013/risk_archetype/R1_INTERNAL/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_013/risk_archetype/R1_INTERNAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_013",
+      "dataset_commitment": "2b432930e11b47f6428e6c1334a278d64661fc7b26bc19c8671e98cecb6f4eab",
+      "dataset_version": "client_013:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.532688+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 1125,
+        "n_positive": 11,
+        "n_samples": 1136,
+        "positive_rate": 0.009683098592
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.00088028169,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "LaNvbEJxQqAAYnS3+ZPwBQwB/PWrtc1ArpF0ABodC67ehrOSFq1TvDA2EsK7Pj04sXj/G77Mh7SlkiVhmJAg1NRxvLr7P1CNKrUD6Ol3JFOSGG35qGhnXLVA7LJbDcWqIqqJDDWnu7EYxS2h2D3mUCSaMRKYfgiyzwHveOdRXMIfuvuoNAHZxErVxp4MRDgcq9gSqYjvGf2cKdqBj0Bo6eN8T5LRxMlnB2piXkmRPAPcfw65hSQV6z77wbxBtl6/C+uPv9FHGVyC9SwNWmABrwlcuCBTbT4p/b9QGVVmKVE6Zixqe5D9IWF3r2KwcUefTknx5dgVer6Z3bMpi3jBp9+EwbOgujPQBBGMMTFog/eRsXpSE/vpwjouu2Zh6ST/fCFsHBAgfYuta1BqyPYAYJ6b5LpYCAzlbZOPK5IL0pndeh8oeeivp+eHtFvV1WslOZShfQOOBymZ8wiAhcTmQVzfOtCF7bE6AfvKpo+IpmT4/HrVbd9FsPYcvrHX8B4J",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R1_INTERNAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/context/intended_use_compatibility",
+          "option": "VERY_WEAK"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/context/known_limitations",
+          "option": "VERY_WEAK"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/context/license_permissions",
+          "option": "VERY_WEAK"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/context/population_domain_coverage",
+          "option": "VERY_WEAK"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/context/redistribution_constraints",
+          "option": "VERY_WEAK"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/documentation/collection_protocol",
+          "option": "LIMITED"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/documentation/data_dictionary",
+          "option": "LIMITED"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/documentation/definition_updates",
+          "option": "LIMITED"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/documentation/version_history",
+          "option": "LIMITED"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/regulatory/audit_status",
+          "option": "VERY_WEAK"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/regulatory/consent_ethics",
+          "option": "VERY_WEAK"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/regulatory/geographic_restrictions",
+          "option": "VERY_WEAK"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/regulatory/lawful_basis",
+          "option": "VERY_WEAK"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/regulatory/sensitivity_classification",
+          "option": "VERY_WEAK"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/source_reliability/collection_objective",
+          "option": "VERY_WEAK"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/source_reliability/data_controller",
+          "option": "VERY_WEAK"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/source_reliability/source_assurance",
+          "option": "VERY_WEAK"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/timeliness/freshness_requirement",
+          "option": "LIMITED"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/timeliness/refresh_schedule",
+          "option": "LIMITED"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_013/governance_archetype/G5_WEAK/timeliness/retention_policy",
+          "option": "LIMITED"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.787541+00:00"
+  },
+  "client_014": {
+    "client_id": "client_014",
+    "evidence_bundle_artifact_hash": "c08d7bb496547f9d524d6fd6160bbfc23e758c8971ef9feea3261e9b6ffc0d64",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_014_3cfd0e9caf748dc7__c08d7bb496547f9d.json",
+    "evidence_bundle_hash": "3cfd0e9caf748dc719226055feb8395d46da3daa79d666447ea1f4982fb0a10c",
+    "evidence_bundle_signature": "h9K7dGszPg7lij4GX8PN7fHIB1N+hPJSdx0W1GeJXwU4Mf9y4yxedJ87nSbJkkOv47H7aRnM2xYm3GVbW9LZ43PoX9z3inQ1SXBMM6hQblanFP+3IVQVlxFjY1FWfQspDchGkI9EY8ILOcttas0wfODgGrjazGA7EdEMPphJTA4X+NNI/2gswf5MoFlaPW8P3rx05o9w/sRc00MduzzlnHWcs6anVeswP1dfbqYkd7gl6QzC0puarytslXI69ehL+EQoyQXPuGjJZUwnf78z/5fI57RVQn7EnPB2EyHZ79027WwvBDNqp8Vm2cHOiGA1oUkMymeu+PDOicRbPMESa/aQg6cMhXiM610lggMyDUIv7UYhqLN2kptGv4XTvwlA2d4mt6MmiIa3XjhA643pIKuN0DhKDTlr+pan+CcEIVtVyYJKffdgOMEHxzMEQQqCsSCOVWcY689I77pJHSYCQc+VPD3ll7rHF8lLe7NQI/u60HErNVySDrA52aYMwSLO",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G1_MATURE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_014/risk_archetype/R4_RESTRICTED/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_014/risk_archetype/R4_RESTRICTED/business_impact",
+        "option": "CRITICAL"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_014/risk_archetype/R4_RESTRICTED/confidentiality",
+        "option": "CRITICAL"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_014/risk_archetype/R4_RESTRICTED/integrity",
+        "option": "HIGH"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_014",
+      "dataset_commitment": "d0ba44559b3770fd87799b4b3634b374295ca5862d62edff8bf3292250235173",
+      "dataset_version": "client_014:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.541929+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 3873,
+        "n_positive": 33,
+        "n_samples": 3906,
+        "positive_rate": 0.008448540707
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.001280081925,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "LQSfSzF1ucGuv3zfKgrqlNFTap0VE1PM+pyBJ9YtgS/Kqmgj6o9qAaqZfc1PYqH6TBLE0floI35AnWYtEFw4ETN9d9/7SwbYO/CUcgpJNBNmTjrMlAueEJ5l1/IzSvVzA9J/9HNK25x3PmY1inyECgbrpS2d/PbD24wOXcaZdrcpSrhDlx/qXFBLGKtO0qG1J+WtzHSBtpmt9dQ3gr4eUEs0jCUGM9Hr3yw7WPPxjtX7i1u4y+VEfYaQoGBU0i1G9376F/KiV9MGwSyA2v3PIskB11VLGNA6mgNWfHOE5xF5/U8IXfbD4WhHDUXwerKr6SaxfZipUE461ZR58TlZBV5R3RpGEsta93lpZWlFK6LuTbZj0KYMMD3lOXlB6RUaKKFLJ58kv871IqWO23hon5uQogN8ZLZGB1KR1lmBkZbOCMoRCArrtLDRUQGfRPrwQiEr8qcy2CPCV890CNjE4UNkIgnylJDZHtX2j667CJ3sgyzdSP/uim5VLPaHRlDC",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R4_RESTRICTED",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/context/intended_use_compatibility",
+          "option": "STRONG"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/context/known_limitations",
+          "option": "STRONG"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/context/license_permissions",
+          "option": "STRONG"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/context/population_domain_coverage",
+          "option": "STRONG"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/context/redistribution_constraints",
+          "option": "STRONG"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/documentation/collection_protocol",
+          "option": "STRONG"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/documentation/data_dictionary",
+          "option": "STRONG"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/documentation/definition_updates",
+          "option": "STRONG"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/documentation/version_history",
+          "option": "STRONG"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/regulatory/audit_status",
+          "option": "VERY_STRONG"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/regulatory/consent_ethics",
+          "option": "VERY_STRONG"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/regulatory/geographic_restrictions",
+          "option": "VERY_STRONG"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/regulatory/lawful_basis",
+          "option": "VERY_STRONG"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/regulatory/sensitivity_classification",
+          "option": "VERY_STRONG"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/source_reliability/collection_objective",
+          "option": "VERY_STRONG"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/source_reliability/data_controller",
+          "option": "VERY_STRONG"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/source_reliability/source_assurance",
+          "option": "VERY_STRONG"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/timeliness/freshness_requirement",
+          "option": "STRONG"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/timeliness/refresh_schedule",
+          "option": "STRONG"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_014/governance_archetype/G1_MATURE/timeliness/retention_policy",
+          "option": "STRONG"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.798012+00:00"
+  },
+  "client_015": {
+    "client_id": "client_015",
+    "evidence_bundle_artifact_hash": "484526c427090a097c87f9856609d7b3705ae5510bdaa42fbdc66210668fb635",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_015_cce7773257abf4c1__484526c427090a09.json",
+    "evidence_bundle_hash": "cce7773257abf4c1f85036c890afc525fc4ef08046e6d507acb3c0049ff04170",
+    "evidence_bundle_signature": "KkluyucdPGU91+ycFAKvzbSK2npoX1oRwQHitFikouqcPybyjs5K4Jik6XUVHtt8hJBy55gjPyg0oeOT5vXfez3+P+6BKwqNKXb3cz7FgpCp+CAacQWk16yCpnRKJUAjCGwFJQPe8t3s48ByNF9zFjr18NhpU7WBWXjeJ8l6d6tQiMRAcgGiprZp4ftU9iULQDX+TmbC9zchlWmnYi8dEpnX7AYMaqlPFJrvxGcbr0M3G5Co6r/KrRW32BgDuziKccyjc92QwUT8hhpBWMb4kxqNiM6LDBz7BSUSRxQ8K9dB65jbJVAQsBifOuMJ0dbJo5f9A2+dAOk26EZC6FHE7Z+SMahdaJw5KEXC5Wei208tY3Mad+JL3OsIKDUwsfIhDm4dcpsFuvZF09BGVlkhKS/9tx3RiWLuLasVkzsIFr5vr8oR7Yc8QPB7nyeUL5+Mu64XcsveIS7fjEMZ1ujqXgt+x90tHSfLoxLY5q/u6cOOL12d10rORXeGUO75gmO5",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G3_ADEQUATE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_015/risk_archetype/R2_CONFIDENTIAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_015/risk_archetype/R2_CONFIDENTIAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_015/risk_archetype/R2_CONFIDENTIAL/confidentiality",
+        "option": "HIGH"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_015/risk_archetype/R2_CONFIDENTIAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_015",
+      "dataset_commitment": "81ae2635d2ec1d48ca745882b8e6d0f2aab3bed80e5b693ca0ddd9e7ac01acfc",
+      "dataset_version": "client_015:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.551937+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 4540,
+        "n_positive": 49,
+        "n_samples": 4589,
+        "positive_rate": 0.010677707562
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.001961211593,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "f2i06AzAQ0blUXIQF5n0kNEiuK6gSDy1vUXZq5sYpweAAmrRyDM/USMjMFbp3/byFH3+6fvzrEeY24QBFCRiobwwe/NQHvJFY+ognhz0sJhZOXsqS+asjBaU2gaj83wwG45DRx1oRJW0XHnJRmaEgn2djPsDsqwKMhSj3GwGnvEqMDZVsqJAkHLWE2UgzUmUMZE+xHilJpkiDuVmR+TvD56oIUXHkizqe9vPoQxwujf8+NLeQSboH049SICMHAT58bejAVEeGSQE7K5Z5wnmuEwC9lXrmssMViIJVedm6NvqEigTbO3sAtqwVDLIBv5ORpS3tA/OFADOx6E/Tr654yurxwoJN98mWreFYPtDGp7juS3M3tFNMZuChZvewtu+iSxKCJI+/PbbpCfH61tR2FtfMRRoqr/kFxTuDKdAUX+pIx8DS8vqlLnI7ar2Eq7SytnJcHM9xamPrehHd9fjGT0fNDzEvInuAQgSjC8dsNs1tZS1f9ZimhJ25VARPb9m",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R2_CONFIDENTIAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/context/intended_use_compatibility",
+          "option": "ADEQUATE"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/context/known_limitations",
+          "option": "ADEQUATE"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/context/license_permissions",
+          "option": "ADEQUATE"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/context/population_domain_coverage",
+          "option": "ADEQUATE"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/context/redistribution_constraints",
+          "option": "ADEQUATE"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/regulatory/audit_status",
+          "option": "ADEQUATE"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/regulatory/consent_ethics",
+          "option": "ADEQUATE"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/regulatory/geographic_restrictions",
+          "option": "ADEQUATE"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/regulatory/lawful_basis",
+          "option": "ADEQUATE"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/regulatory/sensitivity_classification",
+          "option": "ADEQUATE"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/source_reliability/collection_objective",
+          "option": "ADEQUATE"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/source_reliability/data_controller",
+          "option": "ADEQUATE"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/source_reliability/source_assurance",
+          "option": "ADEQUATE"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_015/governance_archetype/G3_ADEQUATE/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.808233+00:00"
+  },
+  "client_016": {
+    "client_id": "client_016",
+    "evidence_bundle_artifact_hash": "1706d8591290a3d32813738d3b435f9adaf3808773f1582a4a82279e0553c6a0",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_016_d72b2fd89e9c2a48__1706d8591290a3d3.json",
+    "evidence_bundle_hash": "d72b2fd89e9c2a489dbe2c5ac9d2560977b799dc0b1c225f7418ef0444cf4aff",
+    "evidence_bundle_signature": "NwlmRTfq3dC8Rvd9jmMnBM4wrbnnyyOPqT7fJWlSUMGo8XUB/CdILq3TYfc0RtgQA0jXp4hJE3pGitrE1MxeS7nRC0xhOcieSHpMSQcHqX5OzinPBtBJFZXerJadfVom582sDjz51f04i5ZcBOVFP1m6+f0N5npC553Jkm145+Ro0ECU9F07cRNg/w6PdS11OWGDy37pILcnHyoMVh6gGMHpTCanyDJgEKj2IgSrFLAAkMcuoqydQ/M5sbuIxdaOqazLXoRe7uaEdy4M1DmromR2Enz7poWFLIbkuu/IukxSbYKMLD6bNHeP7NLSAtruZjFcZCPOOapYwReNEuPzN0H7DDSMxLseF7l6WCicyrx6SUkrYVGvhY/+9T3GZmvJzSta4OYIKv7ocByq75GdueR/zSd0XVxXcrxZEexfwAYTcWQseOgybODj/Qu52YZNa9lWAPw4an9dgXd6+EM8IQOttqkke2/Oje0rWkbeEXRY7v6SyJBSzU/zLrIkSDmM",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G5_WEAK",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_016/risk_archetype/R3_HIGH_IMPACT/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_016/risk_archetype/R3_HIGH_IMPACT/business_impact",
+        "option": "HIGH"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_016/risk_archetype/R3_HIGH_IMPACT/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_016/risk_archetype/R3_HIGH_IMPACT/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_016",
+      "dataset_commitment": "b4f21e1e4c9968fd7c91c07bc76a59cfadd339d6028f6738e8c3fb393b0621a1",
+      "dataset_version": "client_016:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.586248+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 19545,
+        "n_positive": 2,
+        "n_samples": 19547,
+        "positive_rate": 0.000102317491
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.007162224382,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "D0GX6HKA9PT0otAzk/x/97sGFiCfHNQJ0vezc1y/NjxB6Y0FPr3O09E4yp+i4BXw5BvsnUm6P6FqxBPFu4eC0bNpIBYOL3FsRZFtaff/zLnnosXJOdEKpOhMmwrc3KjrpLlkA/0frvuy1/ml7dIOD4ZUv4YzE/MauJ8XXWnDCX89NX2BkWaxERUva5TLZyi4tvHHi8i/Lf1yO1xhCtvxbh44y47USqEEs1yvQwlhLVjZG60zNVLGpdLdycLAIgB4QnNODeKuVsuPjSGGzPThjjU4OjrMib33E4i8CGJmXy5vELk55ZWhPRE2LeMUdcmWaWdHRnUZf81GsxjFZ6xcMYA1oRkcH+cOcUdS5ULzIBbTO4Y5JgzMqAMhNtlIFsy6oPqSkgtjSQdSmMJRJj99YIjdhg8BTNxBMDwhPFQHtH7vMYR8ANLscV9dhMnWG5mh4Znhvn5W1HfXXvb5yXZViP//rbIG2rKOJW9oZ0DrlUqSGAUrrItR7FMXIKNiXnH8",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R3_HIGH_IMPACT",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/context/intended_use_compatibility",
+          "option": "VERY_WEAK"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/context/known_limitations",
+          "option": "VERY_WEAK"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/context/license_permissions",
+          "option": "VERY_WEAK"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/context/population_domain_coverage",
+          "option": "VERY_WEAK"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/context/redistribution_constraints",
+          "option": "VERY_WEAK"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/documentation/collection_protocol",
+          "option": "LIMITED"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/documentation/data_dictionary",
+          "option": "LIMITED"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/documentation/definition_updates",
+          "option": "LIMITED"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/documentation/version_history",
+          "option": "LIMITED"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/regulatory/audit_status",
+          "option": "VERY_WEAK"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/regulatory/consent_ethics",
+          "option": "VERY_WEAK"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/regulatory/geographic_restrictions",
+          "option": "VERY_WEAK"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/regulatory/lawful_basis",
+          "option": "VERY_WEAK"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/regulatory/sensitivity_classification",
+          "option": "VERY_WEAK"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/source_reliability/collection_objective",
+          "option": "VERY_WEAK"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/source_reliability/data_controller",
+          "option": "VERY_WEAK"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/source_reliability/source_assurance",
+          "option": "VERY_WEAK"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/timeliness/freshness_requirement",
+          "option": "LIMITED"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/timeliness/refresh_schedule",
+          "option": "LIMITED"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_016/governance_archetype/G5_WEAK/timeliness/retention_policy",
+          "option": "LIMITED"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.817611+00:00"
+  },
+  "client_017": {
+    "client_id": "client_017",
+    "evidence_bundle_artifact_hash": "432fec8861dda331cc1c0ea5e07fa55298c5e7af3c92fd2a901c557344045724",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_017_468903522fb11c12__432fec8861dda331.json",
+    "evidence_bundle_hash": "468903522fb11c128747f93a3081080dbee60c0c518233cb6cd3ff735686cc1a",
+    "evidence_bundle_signature": "E2R8OMnEsuZ87PstdG4ntS4wvUeTPX2aV+f5olURBWX/oKl2g95xNHFT1OtaLcdxymN/YoYe2NTg4LA3Gbd3/RJMUT5DKAw1O78dj7bdp4VTf6n8rFXJkIMWSSKeer56c+M63FHlOsJy3r+uHz9eA8oBQS+Bqn/pgeIed1IX4W94LHTgxjjwGm6D3HhOI8gl2krwbBQ4JR6ri9EcfiT/EfckCijlSdtm/VXhtB1Jf3RKbFS7w2A1CT4pUWiJr9dzxv6aoIjKXwd4yMohEPltTPzXI0hESLx5wjmgrZBtcR4mt2gqyfnQiDH5B9x9m5kDrdFfgvCBo2XHUU4vbjccWDoL4HWZmRbta7oOueaJ9oUbJaVHWIykIeZca3SXeifg4gZBPUFbRx/NeilSRg2jVqCx29Hety2yVRqpYzbPnjfbxLHCTN5opv3El5eikMWI0BAuDarzL3Gf3coJlnU2XzlPPa+K138sfE6QWdqK/nGWTsvkRa83sMS+BsVTXM0D",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G2_STRONG",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_017/risk_archetype/R2_CONFIDENTIAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_017/risk_archetype/R2_CONFIDENTIAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_017/risk_archetype/R2_CONFIDENTIAL/confidentiality",
+        "option": "HIGH"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_017/risk_archetype/R2_CONFIDENTIAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_017",
+      "dataset_commitment": "b920466d1bfbff97dac3b1c7ff64f0b2dc4149106e9052f90754c39ba7b6912c",
+      "dataset_version": "client_017:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.594446+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 2882,
+        "n_positive": 6,
+        "n_samples": 2888,
+        "positive_rate": 0.002077562327
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.001731301939,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "U6koK7bKqd79iT4trW6nmJlgM0dh5Xgvnq7ahk8P9UMLaGKBg2bOg4s887M+e3EqxdUQq0PebZBtBO+7Xm6tkEaT0ry0yafiPvXoX5B6LQurVrFzmSG8Y6dRgxNRX9+7Sm/JD22gpPbdk8g9Eral0F2orEbcfB1WY6OmH+hSe0uMNeOiY2rafjlKSr3UzJmlC8hoR+VF50ibq7pUfyY8EDNirMb/6I4QpLe137IMyyFscawEj0NLExGGKSIwuxNqOnqY2dO1B48Q14v3z7uJKQ18ND6ErT/GpR7QPQCS7sc/n5JPiwkPKYrFZEntnKnxbfpaispIkuusNVsmBMUGu/EzpXLbD5E432NpwasV5WAb6ISxD5S6/wE1ApCkqVEnea8tF++CPlxYCAdaSF9xqd+SsFZBCrTn5dkYh4XJ7rZZshbwyP46T7+dRmAKdnuskNRuHrW3MzBHe1Xze9PnDdVtiMKSIWA1NbFyIN1G3gZsRfi9oXZf2f/cG+3SGt6N",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R2_CONFIDENTIAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/context/intended_use_compatibility",
+          "option": "STRONG"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/context/known_limitations",
+          "option": "STRONG"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/context/license_permissions",
+          "option": "STRONG"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/context/population_domain_coverage",
+          "option": "STRONG"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/context/redistribution_constraints",
+          "option": "STRONG"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/documentation/collection_protocol",
+          "option": "STRONG"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/documentation/data_dictionary",
+          "option": "STRONG"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/documentation/definition_updates",
+          "option": "STRONG"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/documentation/version_history",
+          "option": "STRONG"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/regulatory/audit_status",
+          "option": "STRONG"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/regulatory/consent_ethics",
+          "option": "STRONG"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/regulatory/geographic_restrictions",
+          "option": "STRONG"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/regulatory/lawful_basis",
+          "option": "STRONG"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/regulatory/sensitivity_classification",
+          "option": "STRONG"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/source_reliability/collection_objective",
+          "option": "STRONG"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/source_reliability/data_controller",
+          "option": "STRONG"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/source_reliability/source_assurance",
+          "option": "STRONG"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/timeliness/freshness_requirement",
+          "option": "STRONG"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/timeliness/refresh_schedule",
+          "option": "STRONG"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_017/governance_archetype/G2_STRONG/timeliness/retention_policy",
+          "option": "STRONG"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.827629+00:00"
+  },
+  "client_018": {
+    "client_id": "client_018",
+    "evidence_bundle_artifact_hash": "872986bbbc08839c51f687d9946cb1ed559d4e6e7b8e7a24fef69e5bfc83ad17",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_018_6ecdce21771715f1__872986bbbc08839c.json",
+    "evidence_bundle_hash": "6ecdce21771715f1311078aefcd55618f988cf1e4937bcb6f8ee9b5e79b53e86",
+    "evidence_bundle_signature": "m5FBDl/3l9pkukeevCq3rBWrNuSt/UnRcsnANIOQ21RuHjg/sjOeUG39JNaNyetq3KJbzTVwRX5HN+p8TQFL/FFCfODKHjzn7MTgujk3lSdBkLC2iAYqS2mYUaUF8r5nz+olR3mWP+s8axfjwxc4FNwFFLt97JroT1BFct29kQ/n3lqbK3Iq2sGBb1/qOqiwcc1QVT5JsK0JhDEdhLlsbP8eQ9UCvJYW2YjZbVePxA8pXtm375d98vkANewNWDOBhywmdjCJhZxzYnfWhD2TemF9K/h1awp7EaQ4aHJ4fd/0hbApkVi/ceCWkJ/W+J4piDaZoKV7UtzYQnzC+DQ6apYC4Aq/5Z8vzZWmVJMlWHzM1tTR2zu3wn0YDT93u3TdnfpQAEbpDL1SVwZNTxstAgxK+pmLuSzDJLzi4ynxFLVjIhh4HG1Whvz0l2qDlT598w742m+2gEAfsoY7VYctRinFgMEWgH2j9m3fZq+0PeLWU71Uwfi9j4/WHVR6afa1",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G4_REMEDIATION_NEEDED",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_018/risk_archetype/R4_RESTRICTED/availability",
+        "option": "HIGH"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_018/risk_archetype/R4_RESTRICTED/business_impact",
+        "option": "CRITICAL"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_018/risk_archetype/R4_RESTRICTED/confidentiality",
+        "option": "CRITICAL"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_018/risk_archetype/R4_RESTRICTED/integrity",
+        "option": "HIGH"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_018",
+      "dataset_commitment": "c8e9ead7d59689f7adcf55e46cf634d619ce57c287e1200a83074e567f1fe4a8",
+      "dataset_version": "client_018:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.634533+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 22667,
+        "n_positive": 4,
+        "n_samples": 22671,
+        "positive_rate": 0.000176436858
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.006572272948,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "pyyDDMJWd0EPoZNE1cTl74l07yH9rvFtlGmOCYo3LfuRtBa9BDvVivgpgc/PJbT/0ZYHfHXbmvHTOtZSTnwZCtAAnTxapV0gDxMBwh4MQXuY3MxmDILGSZzWqEV+oXXU4RfltvqO4tGIFNPCPvveiGyMEqFsCQ4mkyrb7z4xct0p8pWgh/b1EFOqcdwuMihgkXHIAFX63Po629qPd1RyopNwjhyBQPTBUGMFLOk4+c/ybxLthhTVZ5+EpTZSSz1EYz+GF5XEMVa9YBiNYpF+dkeeH+DMXOFOsQPysNuJlkxkqMx4VxkIhToU3B82aY19UqOXQXuNlQPSqXVDT9W3c8PibaOFvDfiCnOH+rDK9JmJvsVUSyWLGLKaTA1RTz3AylVexv40RsNHGdSCBH/5jFERzzwz7pBo+sjQoBXcsIkowPBELue92/oQUt5iyJ5p39zkWuikVddI2SYkBlLT3AE/NJKqJEekpQKDFgNJu07Q/jZIBLSjXtJfhEUlWcIV",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R4_RESTRICTED",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/context/intended_use_compatibility",
+          "option": "LIMITED"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/context/known_limitations",
+          "option": "LIMITED"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/context/license_permissions",
+          "option": "LIMITED"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/context/population_domain_coverage",
+          "option": "LIMITED"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/context/redistribution_constraints",
+          "option": "LIMITED"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/audit_status",
+          "option": "LIMITED"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/consent_ethics",
+          "option": "LIMITED"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/geographic_restrictions",
+          "option": "LIMITED"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/lawful_basis",
+          "option": "LIMITED"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/regulatory/sensitivity_classification",
+          "option": "LIMITED"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/collection_objective",
+          "option": "LIMITED"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/data_controller",
+          "option": "LIMITED"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/source_reliability/source_assurance",
+          "option": "LIMITED"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_018/governance_archetype/G4_REMEDIATION_NEEDED/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.836920+00:00"
+  },
+  "client_019": {
+    "client_id": "client_019",
+    "evidence_bundle_artifact_hash": "24364549656d73bc65ba8d57414db4db100188ce641f5050772b1b6a14128bb7",
+    "evidence_bundle_artifact_relpath": "audit_trails/artifacts/governance_evidence_bundles/client_019_44a84121119472f7__24364549656d73bc.json",
+    "evidence_bundle_hash": "44a84121119472f786c48d2f149c68a8234fa86a012f5934c1e3bd47ddcb4790",
+    "evidence_bundle_signature": "ps/qu3H0q6ycgdcUkseFb7Se2zs4YK1+y/DrthG7O+u0eg+qYpzdOxf4vLna5fhTDcxa5WvR23cSQG1k7iIQeCOT7+w3zAI+bcU9R6S2fekEs7Mwzgq8/8GfIuVKRXGJj5ZvOQjjvFvKqORLUd7jdwo3vJl+4C7P5H4ilVRbuikK6VQkTvo7h/b83zuobHa3fxlfT4S2KbJY1m+V4VrlPPXqwbmODTy2UeJx2aTawlifgkgFzHWpXg2n+zXMh2C5/g2YSCbsjpH/Rg0jGS8rymKatzDKOsuwXmeBtXAgtZ8Dqnr7zfBXcmAIVdE93xQhoEVFtRK5PSJVrUbUVV/uC88W3VjDH7PGnRC6LMQfR82Hi8Ofnc+YYwdYSKd45J7kvM9woLawe0B9v3jVkL9hIwmOxHNukv0wCZf8tMJzRfiTfgqKeZrROxfrXkoJydZmBDpNg+aWZ3UTCw7JfZCf+1fU16TNrnpLRpQzGpgGnYabdeEK5u06L6hTtxmwL8vD",
+    "evidence_manifest_version": "2.1",
+    "evidence_mode": "controlled_experimental_archetype_fixture",
+    "governance_archetype": "G3_ADEQUATE",
+    "governance_archetype_policy": "fixed_controlled_nontechnical_governance_archetypes__technical_data_quality_measured_from_local_partitions__admission_determined_by_frozen_tadp_policy",
+    "governance_policy_version": "2.3-phase1-fixed-threshold-critical-floor-review-profile",
+    "impact_selections": {
+      "availability": {
+        "evidence_ref": "fixture://client_019/risk_archetype/R1_INTERNAL/availability",
+        "option": "MODERATE"
+      },
+      "business_impact": {
+        "evidence_ref": "fixture://client_019/risk_archetype/R1_INTERNAL/business_impact",
+        "option": "MODERATE"
+      },
+      "confidentiality": {
+        "evidence_ref": "fixture://client_019/risk_archetype/R1_INTERNAL/confidentiality",
+        "option": "MODERATE"
+      },
+      "integrity": {
+        "evidence_ref": "fixture://client_019/risk_archetype/R1_INTERNAL/integrity",
+        "option": "MODERATE"
+      }
+    },
+    "lev_report": {
+      "client_id": "client_019",
+      "dataset_commitment": "b958b67f5c7648a8db4455098b41ff8c8937400b94c8c33ddfab2b36b83c9974",
+      "dataset_version": "client_019:snapshot:v1",
+      "issued_at": "2026-08-24T22:32:04.653301+00:00",
+      "manifest_version": "2.0",
+      "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+      "protocol": "TADP-SEC/14.0",
+      "purpose": "tadp-local-evidence-report",
+      "schema": {
+        "feature_count": 29,
+        "feature_dtype": "<f8",
+        "label_binary": true,
+        "label_dtype": "<i8"
+      },
+      "statistics": {
+        "n_features": 29,
+        "n_negative": 7981,
+        "n_positive": 11,
+        "n_samples": 7992,
+        "positive_rate": 0.001376376376
+      },
+      "technical_measurements": {
+        "binary_labels": true,
+        "duplicate_rate": 0.002752752753,
+        "finite_feature_values": true,
+        "invalid_label_rate": 0.0,
+        "missing_rate": 0.0
+      },
+      "validator_version": "TADP-LEV/1.0"
+    },
+    "lev_report_signature": "nZjyGdvUYOXdCRxsvHVFfuWh5QLXqPVozvxvXQMDYIa/Z0Qu4H0h6mb5aPPH1CM/uWTvQObx4abHrXP1EmBVnDRS5tK45m3+uiRh/4S4UYkIFrKP46SUhM6jwZ/WkE0YSaoMswY89cmtzIEchF8uYshKl1fNg5yaX3LoSiYymcq9G2Z2jD2VOZQ9iS6JUSuUVJE+yh1y+om7Cqw4aqyFahn7mAWUpsjSg/uLs2xJrrZrG1qSiLkj0MF8a7yHEVDiRFc3IRzd70Ri29G1Qzo1fZf6gDh9BcGmiegJnOldxpsClPnJwbD5nGSbISoINoUJNz0+QyvNmI+FyiwFBPqAN2sPc89LMgoLl8ajTuSyxDStYB7eWCx0D5ydtd0HOeCoWy84KjB3ODEqqjFeA/zh7cMlif8aJ7hxHxrYPZ9mAT0VPCIB/7y2rWgdi38aXgd15yKAmTtuHLQTWKkDI3WmqILRLXp9p875WHkXEmaB9vb2Qhbtvjl1ehzSF49Rg+FI",
+    "likelihood_audit_value": 2.0,
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-governance-evidence-bundle",
+    "risk_archetype": "R1_INTERNAL",
+    "rubric_selections": {
+      "context": {
+        "intended_use_compatibility": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/context/intended_use_compatibility",
+          "option": "ADEQUATE"
+        },
+        "known_limitations": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/context/known_limitations",
+          "option": "ADEQUATE"
+        },
+        "license_permissions": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/context/license_permissions",
+          "option": "ADEQUATE"
+        },
+        "population_domain_coverage": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/context/population_domain_coverage",
+          "option": "ADEQUATE"
+        },
+        "redistribution_constraints": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/context/redistribution_constraints",
+          "option": "ADEQUATE"
+        }
+      },
+      "documentation": {
+        "collection_protocol": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/documentation/collection_protocol",
+          "option": "ADEQUATE"
+        },
+        "data_dictionary": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/documentation/data_dictionary",
+          "option": "ADEQUATE"
+        },
+        "definition_updates": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/documentation/definition_updates",
+          "option": "ADEQUATE"
+        },
+        "version_history": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/documentation/version_history",
+          "option": "ADEQUATE"
+        }
+      },
+      "regulatory": {
+        "audit_status": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/regulatory/audit_status",
+          "option": "ADEQUATE"
+        },
+        "consent_ethics": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/regulatory/consent_ethics",
+          "option": "ADEQUATE"
+        },
+        "geographic_restrictions": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/regulatory/geographic_restrictions",
+          "option": "ADEQUATE"
+        },
+        "lawful_basis": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/regulatory/lawful_basis",
+          "option": "ADEQUATE"
+        },
+        "sensitivity_classification": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/regulatory/sensitivity_classification",
+          "option": "ADEQUATE"
+        }
+      },
+      "source_reliability": {
+        "collection_objective": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/source_reliability/collection_objective",
+          "option": "ADEQUATE"
+        },
+        "data_controller": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/source_reliability/data_controller",
+          "option": "ADEQUATE"
+        },
+        "source_assurance": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/source_reliability/source_assurance",
+          "option": "ADEQUATE"
+        }
+      },
+      "timeliness": {
+        "freshness_requirement": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/timeliness/freshness_requirement",
+          "option": "ADEQUATE"
+        },
+        "refresh_schedule": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/timeliness/refresh_schedule",
+          "option": "ADEQUATE"
+        },
+        "retention_policy": {
+          "evidence_ref": "fixture://client_019/governance_archetype/G3_ADEQUATE/timeliness/retention_policy",
+          "option": "ADEQUATE"
+        }
+      }
+    },
+    "rubric_version": "TADP-HPS-RUBRIC/2.0",
+    "submitted_at": "2026-08-24T22:32:04.846141+00:00"
+  }
+}

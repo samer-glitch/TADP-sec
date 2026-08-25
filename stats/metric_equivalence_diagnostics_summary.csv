@@ -1,0 +1,6 @@
+scenario,reference_scenario,n_seeds,mean_ap_current,mean_ap_reference,mean_delta_ap,max_abs_delta_ap,mean_delta_f1,max_abs_delta_f1,mean_delta_mcc,max_abs_delta_mcc,mean_model_parameter_l2_delta,max_model_parameter_max_abs_delta,mean_probability_max_abs_delta,max_probability_max_abs_delta,mean_probability_mean_abs_delta,max_prediction_disagreement_count,total_prediction_disagreements_across_seeds,all_seed_binary_predictions_exact_match
+B1_xMK_CKKS,B0_Plain_FL,5,0.727980482304,0.727980482304,0,0,0,0,0,0,9.50803557375e-07,6.43894629854e-07,7.25439712737e-07,9.30192849372e-07,8.42004648507e-09,0,0,True
+T1_Plain_TADP,A1_TADP_admission_only,5,0.726712656293,0.726712656293,0,0,0,0,0,0,0,0,0,0,0,0,0,True
+T2_DF_KS_TADP,T1_Plain_TADP,5,0.726712661221,0.726712656293,4.92811740305e-09,2.37715082063e-08,0,0,0,0,1.71814450323e-06,1.14951224095e-06,1.35143960413e-06,2.02563556684e-06,1.20081766687e-08,0,0,True
+T3_XMK_CKKS_TADP,T1_Plain_TADP,5,0.726712655331,0.726712656293,-9.62267798776e-10,4.31383706534e-09,0,0,0,0,6.3774152703e-07,3.40134820892e-07,8.29943670899e-07,1.29823296824e-06,4.45187217668e-09,0,0,True
+T4_SAMK_TADP,T1_Plain_TADP,3,0.72176352276,0.721763740691,-2.17930757403e-07,3.75776934569e-07,0,0,0,0,8.5997910798e-06,6.73242822727e-06,1.998840305e-05,2.80043742503e-05,3.22100679396e-08,0,0,True

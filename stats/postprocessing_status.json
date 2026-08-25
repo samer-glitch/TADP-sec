@@ -1,0 +1,37 @@
+{
+  "experiment_version": "TADP-SEC v14.0",
+  "generated_at": "2026-08-25T03:12:43.671970+00:00",
+  "html_report": "./tadp_sec_results_v14_0/stats/TADP_Sec_Publication_Report.html",
+  "learning_curves": {
+    "pdf": "./tadp_sec_results_v14_0/figs/learning_curves_vector.pdf",
+    "png": "./tadp_sec_results_v14_0/figs/learning_curves_600dpi.png",
+    "status": "completed"
+  },
+  "notebook_html_tables": {
+    "requested": true,
+    "status": "rendered",
+    "table_count": 4,
+    "tables": [
+      "operational_comparison_b0_t4",
+      "protocol_enforcement_attack_only",
+      "samk_dropout_robustness",
+      "aggregate_fidelity_diagnostics"
+    ]
+  },
+  "notebook_publication_figures": {
+    "figures": [
+      "tadp_sec_results_v14_0/figs/learning_curves_600dpi.png",
+      "tadp_sec_results_v14_0/figs/threat_coverage_matrix_600dpi.png"
+    ],
+    "requested": true,
+    "status": "rendered"
+  },
+  "threat_coverage": {
+    "paths": {
+      "csv": "./tadp_sec_results_v14_0/figs/threat_coverage_matrix.csv",
+      "pdf": "./tadp_sec_results_v14_0/figs/threat_coverage_matrix_vector.pdf",
+      "png": "./tadp_sec_results_v14_0/figs/threat_coverage_matrix_600dpi.png"
+    },
+    "status": "completed"
+  }
+}

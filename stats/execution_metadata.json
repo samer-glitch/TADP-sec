@@ -1,0 +1,26 @@
+{
+  "total_execution_time_seconds": 16837.66641330719,
+  "total_execution_time_formatted": "04:40:37.67",
+  "scenarios_executed": 11,
+  "completion_timestamp": "2026-08-25T03:12:43.108741+00:00",
+  "average_time_per_scenario": 1530.69694666429,
+  "scenarios": [
+    "B0_Plain_FL",
+    "B1_xMK_CKKS",
+    "A1_TADP_admission_only",
+    "T1_Plain_TADP",
+    "T1_TEST_SIGNATURE_ATTACK",
+    "T2_DF_KS_TADP",
+    "T2_TEST_REPLAY_ATTACK",
+    "T3_XMK_CKKS_TADP",
+    "T3_TEST_POFC_ATTACK",
+    "T4_SAMK_TADP",
+    "T4_TEST_DROPOUT"
+  ],
+  "experiment_version": "TADP-SEC v14.0",
+  "protocol_version": "TADP-SEC/14.0",
+  "crypto_backend_label": "custom_reference_python_prototype",
+  "energy_estimation_method": "not_reported_without_direct_hardware_energy_instrumentation",
+  "resource_measurement_policy": "fixed_execution_host_runtime_payload_and_machine_specification__no_unmeasured_absolute_energy_or_carbon_claim",
+  "reporting_policy": "unified_html_report_plus_inline_notebook_tables_and_figures_plus_machine_readable_csv_supplements"
+}

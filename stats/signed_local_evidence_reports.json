@@ -1,0 +1,682 @@
+{
+  "client_000": {
+    "client_id": "client_000",
+    "data_manifest_hash": "d7b6ac0e15e9c3383dbc4df377e4abbe6a169c73192db408da0aa966f098f8ce",
+    "dataset_commitment": "4e8364c73532e53e60dc4309b160584013fb78aa4365ac26ab82d524032f82bc",
+    "dataset_version": "client_000:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.306320+00:00",
+    "lev_report_hash": "d7b6ac0e15e9c3383dbc4df377e4abbe6a169c73192db408da0aa966f098f8ce",
+    "lev_report_signature": "UhwUDTbZSjwzAZNFuf9OZRqk44V+Lbytg96Jv8CosOGR2sQmPy0qxPEaj9aafN166WZy8nM/+q/hI77P/uolFu9ee5HO4yxf1aA+7jjJHXnVp5BOOMLWeYgLstJW5m4S7fq1gIDPIR86KCZIC7/XJZX/Gz0lC8LO5x25VESSntWtcRIjz6GtZyGp3D9uDKlSNlevaw+ORyr09zCLb+horRnqqU6NGhzQSiJ5QtYtd3cwmKSEBgvfoRluIWb0Ks8JO2IG5CmY2QPaLz5M6Y9z0mUdYMbDrOdzQF/iEk7PXNTNdDzL069r5RLiC+7O+oRHNmxpjTPIZXRXXY+442bHgp+bjhBQ6r3rOUWhQcjoJMgslFwJkeMHO+q97OfTru1FklElQOQ3RXLIb3JUEwFPdUCisCN+stBBzkjTgWaFiSFbEQZDUYLWLNDpD65v4eQOjGojFPhRdjyr3xy1aKvjKI/670WllMiRF6UvTpO7DexcDpm4I0vz4OWQsweMc7xo",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 7101,
+      "n_positive": 11,
+      "n_samples": 7112,
+      "positive_rate": 0.001546681665
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.002249718785,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_001": {
+    "client_id": "client_001",
+    "data_manifest_hash": "cd72ec3b4911418e9899eae9aed63fa15aaf66633d0cb863f54d9ac8508d934e",
+    "dataset_commitment": "6b576962e0cd07c01b3dd866d1a4d5afae71c1f8dca5ab8676ee8ee43a59e64c",
+    "dataset_version": "client_001:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.353846+00:00",
+    "lev_report_hash": "cd72ec3b4911418e9899eae9aed63fa15aaf66633d0cb863f54d9ac8508d934e",
+    "lev_report_signature": "posmY997wk3DuYUAqAQYU7HXCUMhqEQubpBj1U4ebmVxwFEbH4fC9yEifiZYZJMSXfnfVcpyC86tJwgJRMojc1IHj467J5LDnCKQ0jOXHhehOjhKdbuzuF82NzpuN2IZhPZnpWfCWNF/fPO+KEslGWiq0buWrcTFnj8PfxJI4bu6Ano4wdXAw8wSeiBe/2XdvAO5o9HU4Bqpu9Ur8dUhE/FRZgQr0gj31CnT0PcXNgqbKkbrXn0Zc5YY3FPNKAaElNi5IxRVG9fI3qx5SVVo7mV8CX/b27TGxNzFKouDOCm8GtIoRcbCQXCndnBixrRMjIfE1tZ6ybk5AJOqMqqxAKFuI3RIz9xljU78GiteuCuzCT0dAp4UqXjTpo38bLf/BA6wtqe/j7RrFNGRFSdmIbrKmZpspmqC6BWfgj7cp43SR4Gx9aTyGFDpzB2MZKHSW078WPSmXDPFdCYk6ivJQVBVx1QKXu5U8WOPggrGYf/9EDupvvn9TQP8hTKmMAA3",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 27915,
+      "n_positive": 4,
+      "n_samples": 27919,
+      "positive_rate": 0.000143271607
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.007521759375,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_002": {
+    "client_id": "client_002",
+    "data_manifest_hash": "7e87b69f66699725e1c14e1b2bf88ffce2405da2ba677e9fbaafbfb11d758c01",
+    "dataset_commitment": "61d289a234ee3befa514bf84fe010e9e7634dbd5250f0efa37c555f778cb34bc",
+    "dataset_version": "client_002:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.375519+00:00",
+    "lev_report_hash": "7e87b69f66699725e1c14e1b2bf88ffce2405da2ba677e9fbaafbfb11d758c01",
+    "lev_report_signature": "pv/vbkwYHEVI7S1xnXErhZa9ECKSb8b8z8yAWhbQ54r15LObw6y0YbpRTusanNYPuGB2eU2wd4snBifbTVFas2xVb3Vvq/+9jBmpmCk+o8BtF7JSvAkXXWGK9JQR06N5NlrejYYTOg89ndE8HASqnp4visc2iv06Rg5wiivRyQRrmJ4FO/L81ej1CM5ovbwaGXeNrN3SRvwVOjLFV1rC2k1nGVWEYN0hR2Wq4YCSOhOMbDsX2tzqEKjjaQfbON4SNAROxXLWM3VZEpU55lOapGqMwymMrGhdEIbES8VGVP2eGFyJ6lSx9b9M/IGCHQYXrZrl3TU67HF/u4+OJBvKgZgube7Yo6trxC5Js3woV3PEgqof8U18pCPe50jqblOt+gz1q92dswwjzSu0M4ElNNNSdqZD4CIKEwyP0tTj5kHyB+c24HUcz5GUAAiSLuL0jrsRBFybanNLeYPL2kZ2rkI72qWn6DLgnIAo6YmxI3cToXIk/UHbql/CbDHo6FYy",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 12320,
+      "n_positive": 26,
+      "n_samples": 12346,
+      "positive_rate": 0.002105945245
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.003887898915,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_003": {
+    "client_id": "client_003",
+    "data_manifest_hash": "bd5ec3b6342193a92286f030b9b3d94944c8b41b73184004be4e3715ef4f99c4",
+    "dataset_commitment": "526ce5b5b7a6a8e164a5de8de0530f2f70860819b5ea78867621b19e01344ecc",
+    "dataset_version": "client_003:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.379912+00:00",
+    "lev_report_hash": "bd5ec3b6342193a92286f030b9b3d94944c8b41b73184004be4e3715ef4f99c4",
+    "lev_report_signature": "P3xGw3tFdgPTsLlXmdXoDQv4ddQCg+YXADdl5YmnQhphjjjJVrbGcr/ZBmZpRodeS0hvrAluh41DqeoQ2I0dKDi964rabVL2oW6/r6YaKCQBri1soz3X2lC84VyCmAgRg4rM8M1rhYy9jL8SjZPpaSdAtqF6De2YvuEWtiGNznoreN3/Ky4xhLTAd192aw74YnM5ztHORXeGQRqpPxj7IK5JfafLaK+Gva/2ueHT4dzRGfexEc/atX8nVpxFRb+RKSbK6Ey6HXNwynB8UX5xmSs7vzkbAWLiqVH1YMsYJqHB/rvn9QU7M4Jrr+pspZrR3axKMgAC7Pke1EJ2FCI3kviu3uJGoZ+Ej9uvAQvB03iEn4YUMhXxWA4AXkV76RUSScq6oCvwkbLGCETvqQlIs4+tb3++1L2u0C0+TKH9cYnKRscm/foZDyx8iP3UfdYvFCIdaiW4E5Jni4HUtXfKkSdzGxj1hrLjCsNRRepMQsxerKZ4SEeseW885pRt5iWk",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 50,
+      "n_positive": 21,
+      "n_samples": 71,
+      "positive_rate": 0.295774647887
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.0,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_004": {
+    "client_id": "client_004",
+    "data_manifest_hash": "a896f92ab31cf5e6029f0d594e6733d888bb2503e0eee8805113c5b4a4fe4c52",
+    "dataset_commitment": "489d80b0a5201e97141c390dee25e832d8f656541099391982c7099a5657323d",
+    "dataset_version": "client_004:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.433963+00:00",
+    "lev_report_hash": "a896f92ab31cf5e6029f0d594e6733d888bb2503e0eee8805113c5b4a4fe4c52",
+    "lev_report_signature": "MOLULqF6uR1tRSCLB0RGB8m/XTl+Xcv513YVuj+xYGHdRc18GgCIr7rZnR94RotCR6rkBCT2RM/8eOrUGAdZ1KD43Q5D7oKI890J6vHKNIZgz73+2ZP0FI2BvPgVCkUKC5Wrij6tMt8tEmQ5ANTqwfvsTSuQCyae6Hg7XudzpTzUnVLxOv+xL8pQXnFcvjVGQHC8gbzibT94xLa3aWFfHp2Ydpyr6d5W1wDh93uWgPMRaEj0H0ksFACi9ebkVwhtUcmD/JZoWlOAHCuKhkyqPpTtPDd4sXIUek+03MoiYzbA4DEIY3ycAqHEQ6kgv4E2FPgAtlX3dMpLbR1Zmp4WHnm4Duconr3+DkWdRpDm9YHqTmPmPJKF6R8xxtplzElj2Orc5jiG1KpNP/imOpeth7cGaA5sLX7azdUKzI7davjXgddqktVFA6rl0z4+aVclS49VtrJYQMbbZYa3/Jqna67gWahHrrxIla56J8zofhyxD7bqQwiHaLQ40AgnNUPl",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 30140,
+      "n_positive": 42,
+      "n_samples": 30182,
+      "positive_rate": 0.001391557882
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.008249950302,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_005": {
+    "client_id": "client_005",
+    "data_manifest_hash": "06bc69b9c3f13b313b07b410d3fc30fac952a993dcfea331f62f5c65f2de56d1",
+    "dataset_commitment": "0cec65b14d295f07081895f6d8f94e8923e8f07f8601bd8f0317b342d6429d40",
+    "dataset_version": "client_005:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.454872+00:00",
+    "lev_report_hash": "06bc69b9c3f13b313b07b410d3fc30fac952a993dcfea331f62f5c65f2de56d1",
+    "lev_report_signature": "G8Jpai/yF/ntQ79VOS6eYs2gwqKvQGzj0gsdhHwsbskwPx/kbhStnXUlz3JwbL1VFEaBW0Qb84sl8P2pcTcCAEVtH3Gh5m+nzHD39kc+Qf8fmc+t7PIw2pC5JcjYJEuhdLnncCZ0zIOqrSJHIpkSnyuFZ7AW4IGE2m2IPcquVLoUMQPCg0iWsJTKz2rl8/9xEzJveOGroRLsOLXOcCNJSJz5USDLkT6+ICO+y727S/YF5TvMLP6L9XkLPY8ReracM3eP9kIBG+2X8nMi0Z1IX7XYzbeuSl0Pd7PL3q7w85YT2kPrY/JceFwka8JHN6yp3siDZaQqG/ykxiwhgK9OLRlOS8aWLuJrlsv0tp6YFTxzgb2QUEoNGFj3AlxKb9+ricEVP3VMSDkzwe3oJ3i/hpvevr0jGeZSXa98Jwmg74mhPs73AGT/v8XUN1ITtJqVU8/I0QIJRQTSCAlcBqku8bq4TaTQIpqZIjlNDyR7hy2YLzaFKu8jgRGJ6eCRQHY3",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 11473,
+      "n_positive": 11,
+      "n_samples": 11484,
+      "positive_rate": 0.000957854406
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.002873563218,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_006": {
+    "client_id": "client_006",
+    "data_manifest_hash": "f6001c0e8e92e7745812ec6f800166d983e7bfb54404bb175620971777deba17",
+    "dataset_commitment": "426a2de18e796101a6ffa302e2f034b7009aaf189a8060c29ebf9ceb056fd06e",
+    "dataset_version": "client_006:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.461647+00:00",
+    "lev_report_hash": "f6001c0e8e92e7745812ec6f800166d983e7bfb54404bb175620971777deba17",
+    "lev_report_signature": "ffbN+80RSyLFVv3863RR+NI446go/nsEJ5lZMbW+Vkd77QPf0MQDlnKTf8uiI46LfdogLN19YJho35xsiY5B5eyEk2TiJSJ46gaN5D7pyPF/OnmnwOcmcWVYIQf5pApup7bcPZFBHHM9Kj3TUHxY8J6PK7Iw/lhu3Hd/dgMicASaexgI69K2TvpoJp8QAoknv2yBDZCusZF41c+kGyihx/dIM6szmdq+ITQ2+ntEZDVkdvOQRrbXkhHCmRCSbTp2VdpiSRP8nEX27Nac8Pq6ifMlUrDeB6nPheWXokJ6Td+0s58CeSsdoJWDFXb+hUmc5FZz0+Xz/6HuLlyDRCfnY0ZWyos5KJIMR8RgFNOu2v/5PZDIWSDKy5a8yZlD5wz+X5WZ7skhwnQX63qzeqOtNMW+8XBwqJ6i8IzUR9SGCcR0khySHFUiuYYEjjMX6cP8PmqADyQqpsrDE1NDAVZM9bbwoDJw9Lvbgw+dI3esQbfP15iHnzJSMPFk6QXK4mbs",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 1725,
+      "n_positive": 30,
+      "n_samples": 1755,
+      "positive_rate": 0.017094017094
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.00113960114,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_007": {
+    "client_id": "client_007",
+    "data_manifest_hash": "3a46ee4bd62c5cfec697cec57a4c9be6718029587f92d098c269255a7f75479b",
+    "dataset_commitment": "30c3eff9b237a5eab372ea4df4d7ab531198f98fb17da15b33618f17327883f6",
+    "dataset_version": "client_007:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.479411+00:00",
+    "lev_report_hash": "3a46ee4bd62c5cfec697cec57a4c9be6718029587f92d098c269255a7f75479b",
+    "lev_report_signature": "SJx3F2/ILzXeIoyrg/fZedzbJJitl0HxLIWFIaIOBUhkRcEi2ZWohnIQZkm0FvenHzvgQAHC6uUlMQQCGcv24JthJfnUdIXfJJ0MMVnHst2WTV50LIfmMyEBZx+liJmaoziaW4jfbdlk7CNyp4l6pal4M/vuqyGv8M+6ploPHGqTSxyiGMvmsGNIpD7CBoxN+eDsW1lv4G9qApRPOJDrC5phkBfcPjsiSWLDMkPUTSGFkfrIGaPi4gZCVAKnePVrKiMkZhdYLyaTVfEMkRaUbMRiHL01w3kcptuWV/8F818wd/3DNHMSc9Zl6wR1eBtd9jp7ByFpZcCCcaZQ7HsEjT1WL41QWUrTpaXnSu914aXxzg4fgzJftVNTzBoOjvUvX9FjZqb8gAbSmGaKbkVJ5vlZI4K4AUdcdmNClNRXMCfZS//balpE8SwIZquwszPaqRY1Z9p/NCYWrtGunr01DBcGDpKX1rwv8h2IN5U0LcXlf+Chj/R8xmUOQls5fEva",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 10022,
+      "n_positive": 0,
+      "n_samples": 10022,
+      "positive_rate": 0.0
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.004589902215,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_008": {
+    "client_id": "client_008",
+    "data_manifest_hash": "082bf234b41762763836ec8b9ab54fb24ba5fef63a7d4b3839ec4993ed023972",
+    "dataset_commitment": "8e5a3bf235a819a2607952fae6c82288a6ab1441936af8ec3f6fd6c6b8a4656a",
+    "dataset_version": "client_008:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.484275+00:00",
+    "lev_report_hash": "082bf234b41762763836ec8b9ab54fb24ba5fef63a7d4b3839ec4993ed023972",
+    "lev_report_signature": "MqdCXnrHEj2G5CEtmJHOM8eHL7PNByIBaPLbmMMaFzd+RZiAQNykv3+zcdmphWOb22AHZ8jjTvTZj/Ljif/xnCeSbzG6Qe4n2Fef1VieJ+2RDrx1f2LOcTAIy5KJpE12se2yFQok9+9f6RlrcIpLDlcFgvWrBNMBx68HyeA32yVPxyIZsYnWkm3H65mgZTmd3uogOeyNXNxcqyFWiaFvSEcj3AqUg6PP5sRaFrl1BudXBysOeN9JHR/zVs2REHn63sALnwCBZCoSh8aGTVEO4YMdmb0eush2TzsOVC4WkDQU/az2M2PbgIqB64M2P83AM7wk8vOsihTEJXuSXCRSxaUuUyKQBuoNKVSv4ViUIoal4M7Q3dR8tTn+N0FTcm6vZttiVOxRCLNTpewphRlHksAIB9GxJb+Sb77G261HFSe8VwswigDZq8R93/bi2Lj43PELGgQgQY+s2sJ/a9CuDsUFjVwsL/icuRY3vljtgML12YUgR4KtvQ7kw2StkBDg",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 443,
+      "n_positive": 14,
+      "n_samples": 457,
+      "positive_rate": 0.030634573304
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.0,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_009": {
+    "client_id": "client_009",
+    "data_manifest_hash": "acf71bf3ea9d90a1f8be5200d5260f3e2b891a5daff70629208bb462479f2079",
+    "dataset_commitment": "cf0b3a7e24ab42504eb4dbe3b3f7b580e8973a11c57a68b2b90044fea7b6d4d2",
+    "dataset_version": "client_009:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.493212+00:00",
+    "lev_report_hash": "acf71bf3ea9d90a1f8be5200d5260f3e2b891a5daff70629208bb462479f2079",
+    "lev_report_signature": "r3I4WHk4qQBPLgGTp2YHtDuJh+1+/JRTUhv5JtgIVUPNRtACKXwWlXuX6jcwg/48rY3f3thsuek00hzVpdvxZd8lCNoWm8s3SuO5w7J2rAU0mZSGXbNNzd55RJ/KSJQySLpgNZkA0prfuvwzb3jnUg9+bOQN2xCYu4K2qmYTs3maarRn3aGiK8Z5C23OXo0JrKOwWRfr1k8Zp0LnqqmUTV0tvG3m+3aH6UK8zFiVmXcOLB3utsGLpJg3nm4h23PX9RDeTacgiHFUcQLPnC/yKOOJp2OC1doGJ4EmUDZQx62sYPhPw8/c8cJT2mZQYkD2oHZwxCKTCsEtuuw4fUHCjLFU2+UoBJA7bo/h7987Z7G/0TW6cvnr29y+/z5KnM8nM346lRYqAtyqVZlWn5xhq0orACojwlc1wvyOMXtrfctNu2F8KQoP4thdDqFH4lts5mR+LmtKYo0NdIg/Nc9ehB6upl0E5JYH+6V7BfMaefpOFnNAI8K/RIzIRpI3VvOT",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 3433,
+      "n_positive": 22,
+      "n_samples": 3455,
+      "positive_rate": 0.006367583213
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.001736613603,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_010": {
+    "client_id": "client_010",
+    "data_manifest_hash": "9e60740d1dd896089e45487695aa79b20080d5c264b77c0fea1c1ac12c9ce8f9",
+    "dataset_commitment": "8d23da0b34e6669ee69b20bae51ce50232424d0cf9455063fb97f4d3d5c30d10",
+    "dataset_version": "client_010:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.502155+00:00",
+    "lev_report_hash": "9e60740d1dd896089e45487695aa79b20080d5c264b77c0fea1c1ac12c9ce8f9",
+    "lev_report_signature": "VCWtY+ZA1ObW6b/+ycVv+Z+iWUGchDagZKcVkelnU9u7Y3wvD1hO0klo8NkI/wnc9p3TR9XxpvNhJYmTBxtmQxpEPkuAJqYZhZI/0h10+b+vIWfYpVsdnapMwBQpaUXpvK4U4AYorIBUV/BVjhnt/oD7vSRpba2Y/42NAY9aXuWGxvvKzZNxS4YOvvwbcLRWjJn/tck1F/87fospLyTyP9fYUs4spnH71ms26kguq1KGhD6vM8Cex8/Z2SYmLv6f+pgfc3ZBC3systgbCnqg+fgTRLth4WDIWsE4mX2FJ9PxgwCGemamkk69VOEGviq/pdWzE8jn5ysl6+k+L2oOHcgJ/QreI3VUQMwB7yoIJBEieWYwl+kYdQHSEzf9U8WPL4WF8YxrW1c1kiGXmbULdTBCYAqYof28fpYNpqxCDVFwfek4YpHihsT0p31RU7Xe8azGsZEkApVhaXSvIYi+B+fK00fSV2eC1XCHbe9KzZvl+66ukLZ0pIbNcFj0Gjop",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 3655,
+      "n_positive": 2,
+      "n_samples": 3657,
+      "positive_rate": 0.000546896363
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.002187585453,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_011": {
+    "client_id": "client_011",
+    "data_manifest_hash": "24277a6d5f628c21b544aac2dd1fdb8683610399c1c7075adccdf2e7514b86ec",
+    "dataset_commitment": "6a739f8d69c325eccb0c8e896cd726aee1edbb4f541d4df6fc8b3e2d7c65aced",
+    "dataset_version": "client_011:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.511627+00:00",
+    "lev_report_hash": "24277a6d5f628c21b544aac2dd1fdb8683610399c1c7075adccdf2e7514b86ec",
+    "lev_report_signature": "Jevc5ZhIO+WlKTGhXh6/d+cmKrLMjMFUjsP557m/m6dgyIwbWVrE0SYQncc8X4K45G4bkcyOjtFZUQMBP/pA0Wl//A7dB/DDorb6yyDjFD9D+4gkHTQok5FJykzCG8Bp3mrOqDdbyWbBC5CyPxW6ZV0tYCyAoZKmFaYYnVybiO2CFPt5CMQHiN6sPqism3bpTLu3HJQg75CQa6ZMi//iarqsaV0wC5S6gh+9ma5nTY9xsa2Yr00QqQ+UAUaj4AnB6HvDb7xmIMRkNT2ZOXEaFaff2FkG20RXojUbGy5RJlFKLPzjCxiUaaEOkNsenP14I1NxDBjXl7y5AkPFIeJKydUkHnLRAtfk/imcyYhCg8Xgh4b6+QcpnxMZXn6NeaPugHpCrj+SEth/kiKQhYiFDpfdfs+z2mNKb7XGo4zBcr7Y8WOeHdBOn/WvanbY0pGC7nSWZT3FsZhFCCybeeaG202QNYliMfXnXCfwQJ5gCNITeC7EDUxJ6PS/1ndLbTlP",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 4081,
+      "n_positive": 9,
+      "n_samples": 4090,
+      "positive_rate": 0.002200488998
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.001466992665,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_012": {
+    "client_id": "client_012",
+    "data_manifest_hash": "a1802776c20d9c654bf95cfd681caad7b0057613ac04ab34a4fb9925bedd62b6",
+    "dataset_commitment": "9dc10cdf3d7a09de977568de72a06190658a4ef9582e4d1573bcf8cff65bbc06",
+    "dataset_version": "client_012:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.526854+00:00",
+    "lev_report_hash": "a1802776c20d9c654bf95cfd681caad7b0057613ac04ab34a4fb9925bedd62b6",
+    "lev_report_signature": "gMcHmlUj+eHCRQPQ2MufmPoRP76QSzbAcnke7QEOeyyaLs7BuWFt2JV7b1L6SmfuiCPZmm7KC6y+ko7ked6rJVLw5eMZLmm7Ss+TnDmt/S91GR8i6KQIdp7g1VNdW7DfIKnZU8MNT5Kdfsib0fZuRkmy/kK9fB9F0YXKqxVH589k5sDiMm1Ya+HXVII1XCkYIEaGI0kH3q1xoUUPKDXDY5Pe9WE4LjxviPSaMcthF0UnbHbUWVJFb5CdB3EhvTrTQjnPJZHuOtPR0dEXz8kFNS/0OVFAhOfosTyfDn5truByWvXgPGnKBY+Y19smBz81vDa1Bo6npILkGBjpODedzhX0/7urm6sWXvA7sWXbdlqTRd9HtgMKmskWg/Y91lamlRmTBawInhu0//asnUVZLHYu3qvarrWqH/DUK0k+Q9b+XwWbuZHcr6C+x1FJQU9qYbi+Pp3ToUscWZzGpYTrylNrv15wc7ktkPIocT0GNIDgo8HsgHLrQOospG/KbQ3t",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 6990,
+      "n_positive": 7,
+      "n_samples": 6997,
+      "positive_rate": 0.001000428755
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.003287123053,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_013": {
+    "client_id": "client_013",
+    "data_manifest_hash": "f026db28e1aa0a2c372359ae4d2ef86a9aaed0a530f821c96c3832149eab85c9",
+    "dataset_commitment": "2b432930e11b47f6428e6c1334a278d64661fc7b26bc19c8671e98cecb6f4eab",
+    "dataset_version": "client_013:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.532688+00:00",
+    "lev_report_hash": "f026db28e1aa0a2c372359ae4d2ef86a9aaed0a530f821c96c3832149eab85c9",
+    "lev_report_signature": "LaNvbEJxQqAAYnS3+ZPwBQwB/PWrtc1ArpF0ABodC67ehrOSFq1TvDA2EsK7Pj04sXj/G77Mh7SlkiVhmJAg1NRxvLr7P1CNKrUD6Ol3JFOSGG35qGhnXLVA7LJbDcWqIqqJDDWnu7EYxS2h2D3mUCSaMRKYfgiyzwHveOdRXMIfuvuoNAHZxErVxp4MRDgcq9gSqYjvGf2cKdqBj0Bo6eN8T5LRxMlnB2piXkmRPAPcfw65hSQV6z77wbxBtl6/C+uPv9FHGVyC9SwNWmABrwlcuCBTbT4p/b9QGVVmKVE6Zixqe5D9IWF3r2KwcUefTknx5dgVer6Z3bMpi3jBp9+EwbOgujPQBBGMMTFog/eRsXpSE/vpwjouu2Zh6ST/fCFsHBAgfYuta1BqyPYAYJ6b5LpYCAzlbZOPK5IL0pndeh8oeeivp+eHtFvV1WslOZShfQOOBymZ8wiAhcTmQVzfOtCF7bE6AfvKpo+IpmT4/HrVbd9FsPYcvrHX8B4J",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 1125,
+      "n_positive": 11,
+      "n_samples": 1136,
+      "positive_rate": 0.009683098592
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.00088028169,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_014": {
+    "client_id": "client_014",
+    "data_manifest_hash": "3833b6d2de36d7e0cdaceaeacd887377a57dcd252f49c4ad3a8f2e5599db3f8c",
+    "dataset_commitment": "d0ba44559b3770fd87799b4b3634b374295ca5862d62edff8bf3292250235173",
+    "dataset_version": "client_014:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.541929+00:00",
+    "lev_report_hash": "3833b6d2de36d7e0cdaceaeacd887377a57dcd252f49c4ad3a8f2e5599db3f8c",
+    "lev_report_signature": "LQSfSzF1ucGuv3zfKgrqlNFTap0VE1PM+pyBJ9YtgS/Kqmgj6o9qAaqZfc1PYqH6TBLE0floI35AnWYtEFw4ETN9d9/7SwbYO/CUcgpJNBNmTjrMlAueEJ5l1/IzSvVzA9J/9HNK25x3PmY1inyECgbrpS2d/PbD24wOXcaZdrcpSrhDlx/qXFBLGKtO0qG1J+WtzHSBtpmt9dQ3gr4eUEs0jCUGM9Hr3yw7WPPxjtX7i1u4y+VEfYaQoGBU0i1G9376F/KiV9MGwSyA2v3PIskB11VLGNA6mgNWfHOE5xF5/U8IXfbD4WhHDUXwerKr6SaxfZipUE461ZR58TlZBV5R3RpGEsta93lpZWlFK6LuTbZj0KYMMD3lOXlB6RUaKKFLJ58kv871IqWO23hon5uQogN8ZLZGB1KR1lmBkZbOCMoRCArrtLDRUQGfRPrwQiEr8qcy2CPCV890CNjE4UNkIgnylJDZHtX2j667CJ3sgyzdSP/uim5VLPaHRlDC",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 3873,
+      "n_positive": 33,
+      "n_samples": 3906,
+      "positive_rate": 0.008448540707
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.001280081925,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_015": {
+    "client_id": "client_015",
+    "data_manifest_hash": "7f4783377ac4ed7744318c98d3d0c8ff3e62305c6566feed5a33634c5a93e117",
+    "dataset_commitment": "81ae2635d2ec1d48ca745882b8e6d0f2aab3bed80e5b693ca0ddd9e7ac01acfc",
+    "dataset_version": "client_015:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.551937+00:00",
+    "lev_report_hash": "7f4783377ac4ed7744318c98d3d0c8ff3e62305c6566feed5a33634c5a93e117",
+    "lev_report_signature": "f2i06AzAQ0blUXIQF5n0kNEiuK6gSDy1vUXZq5sYpweAAmrRyDM/USMjMFbp3/byFH3+6fvzrEeY24QBFCRiobwwe/NQHvJFY+ognhz0sJhZOXsqS+asjBaU2gaj83wwG45DRx1oRJW0XHnJRmaEgn2djPsDsqwKMhSj3GwGnvEqMDZVsqJAkHLWE2UgzUmUMZE+xHilJpkiDuVmR+TvD56oIUXHkizqe9vPoQxwujf8+NLeQSboH049SICMHAT58bejAVEeGSQE7K5Z5wnmuEwC9lXrmssMViIJVedm6NvqEigTbO3sAtqwVDLIBv5ORpS3tA/OFADOx6E/Tr654yurxwoJN98mWreFYPtDGp7juS3M3tFNMZuChZvewtu+iSxKCJI+/PbbpCfH61tR2FtfMRRoqr/kFxTuDKdAUX+pIx8DS8vqlLnI7ar2Eq7SytnJcHM9xamPrehHd9fjGT0fNDzEvInuAQgSjC8dsNs1tZS1f9ZimhJ25VARPb9m",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 4540,
+      "n_positive": 49,
+      "n_samples": 4589,
+      "positive_rate": 0.010677707562
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.001961211593,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_016": {
+    "client_id": "client_016",
+    "data_manifest_hash": "bbf7856de7c3ac5d5bc3feaa000df79e6e47f75f89392d99368ef11eded69fb0",
+    "dataset_commitment": "b4f21e1e4c9968fd7c91c07bc76a59cfadd339d6028f6738e8c3fb393b0621a1",
+    "dataset_version": "client_016:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.586248+00:00",
+    "lev_report_hash": "bbf7856de7c3ac5d5bc3feaa000df79e6e47f75f89392d99368ef11eded69fb0",
+    "lev_report_signature": "D0GX6HKA9PT0otAzk/x/97sGFiCfHNQJ0vezc1y/NjxB6Y0FPr3O09E4yp+i4BXw5BvsnUm6P6FqxBPFu4eC0bNpIBYOL3FsRZFtaff/zLnnosXJOdEKpOhMmwrc3KjrpLlkA/0frvuy1/ml7dIOD4ZUv4YzE/MauJ8XXWnDCX89NX2BkWaxERUva5TLZyi4tvHHi8i/Lf1yO1xhCtvxbh44y47USqEEs1yvQwlhLVjZG60zNVLGpdLdycLAIgB4QnNODeKuVsuPjSGGzPThjjU4OjrMib33E4i8CGJmXy5vELk55ZWhPRE2LeMUdcmWaWdHRnUZf81GsxjFZ6xcMYA1oRkcH+cOcUdS5ULzIBbTO4Y5JgzMqAMhNtlIFsy6oPqSkgtjSQdSmMJRJj99YIjdhg8BTNxBMDwhPFQHtH7vMYR8ANLscV9dhMnWG5mh4Znhvn5W1HfXXvb5yXZViP//rbIG2rKOJW9oZ0DrlUqSGAUrrItR7FMXIKNiXnH8",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 19545,
+      "n_positive": 2,
+      "n_samples": 19547,
+      "positive_rate": 0.000102317491
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.007162224382,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_017": {
+    "client_id": "client_017",
+    "data_manifest_hash": "aebfb4daeb4caa073457d3bbc7194a143b01b37a629ddff23eb5b830141f5b90",
+    "dataset_commitment": "b920466d1bfbff97dac3b1c7ff64f0b2dc4149106e9052f90754c39ba7b6912c",
+    "dataset_version": "client_017:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.594446+00:00",
+    "lev_report_hash": "aebfb4daeb4caa073457d3bbc7194a143b01b37a629ddff23eb5b830141f5b90",
+    "lev_report_signature": "U6koK7bKqd79iT4trW6nmJlgM0dh5Xgvnq7ahk8P9UMLaGKBg2bOg4s887M+e3EqxdUQq0PebZBtBO+7Xm6tkEaT0ry0yafiPvXoX5B6LQurVrFzmSG8Y6dRgxNRX9+7Sm/JD22gpPbdk8g9Eral0F2orEbcfB1WY6OmH+hSe0uMNeOiY2rafjlKSr3UzJmlC8hoR+VF50ibq7pUfyY8EDNirMb/6I4QpLe137IMyyFscawEj0NLExGGKSIwuxNqOnqY2dO1B48Q14v3z7uJKQ18ND6ErT/GpR7QPQCS7sc/n5JPiwkPKYrFZEntnKnxbfpaispIkuusNVsmBMUGu/EzpXLbD5E432NpwasV5WAb6ISxD5S6/wE1ApCkqVEnea8tF++CPlxYCAdaSF9xqd+SsFZBCrTn5dkYh4XJ7rZZshbwyP46T7+dRmAKdnuskNRuHrW3MzBHe1Xze9PnDdVtiMKSIWA1NbFyIN1G3gZsRfi9oXZf2f/cG+3SGt6N",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 2882,
+      "n_positive": 6,
+      "n_samples": 2888,
+      "positive_rate": 0.002077562327
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.001731301939,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_018": {
+    "client_id": "client_018",
+    "data_manifest_hash": "49a809f67dc3cde26964cfcfd3ddcc11d40f1361caf77defb0c9929cfc0187c2",
+    "dataset_commitment": "c8e9ead7d59689f7adcf55e46cf634d619ce57c287e1200a83074e567f1fe4a8",
+    "dataset_version": "client_018:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.634533+00:00",
+    "lev_report_hash": "49a809f67dc3cde26964cfcfd3ddcc11d40f1361caf77defb0c9929cfc0187c2",
+    "lev_report_signature": "pyyDDMJWd0EPoZNE1cTl74l07yH9rvFtlGmOCYo3LfuRtBa9BDvVivgpgc/PJbT/0ZYHfHXbmvHTOtZSTnwZCtAAnTxapV0gDxMBwh4MQXuY3MxmDILGSZzWqEV+oXXU4RfltvqO4tGIFNPCPvveiGyMEqFsCQ4mkyrb7z4xct0p8pWgh/b1EFOqcdwuMihgkXHIAFX63Po629qPd1RyopNwjhyBQPTBUGMFLOk4+c/ybxLthhTVZ5+EpTZSSz1EYz+GF5XEMVa9YBiNYpF+dkeeH+DMXOFOsQPysNuJlkxkqMx4VxkIhToU3B82aY19UqOXQXuNlQPSqXVDT9W3c8PibaOFvDfiCnOH+rDK9JmJvsVUSyWLGLKaTA1RTz3AylVexv40RsNHGdSCBH/5jFERzzwz7pBo+sjQoBXcsIkowPBELue92/oQUt5iyJ5p39zkWuikVddI2SYkBlLT3AE/NJKqJEekpQKDFgNJu07Q/jZIBLSjXtJfhEUlWcIV",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 22667,
+      "n_positive": 4,
+      "n_samples": 22671,
+      "positive_rate": 0.000176436858
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.006572272948,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  },
+  "client_019": {
+    "client_id": "client_019",
+    "data_manifest_hash": "0ed6fee190230effd68e2a6c9d353dff57c4b5ef2fc610b8651de073f4936ba5",
+    "dataset_commitment": "b958b67f5c7648a8db4455098b41ff8c8937400b94c8c33ddfab2b36b83c9974",
+    "dataset_version": "client_019:snapshot:v1",
+    "issued_at": "2026-08-24T22:32:04.653301+00:00",
+    "lev_report_hash": "0ed6fee190230effd68e2a6c9d353dff57c4b5ef2fc610b8651de073f4936ba5",
+    "lev_report_signature": "nZjyGdvUYOXdCRxsvHVFfuWh5QLXqPVozvxvXQMDYIa/Z0Qu4H0h6mb5aPPH1CM/uWTvQObx4abHrXP1EmBVnDRS5tK45m3+uiRh/4S4UYkIFrKP46SUhM6jwZ/WkE0YSaoMswY89cmtzIEchF8uYshKl1fNg5yaX3LoSiYymcq9G2Z2jD2VOZQ9iS6JUSuUVJE+yh1y+om7Cqw4aqyFahn7mAWUpsjSg/uLs2xJrrZrG1qSiLkj0MF8a7yHEVDiRFc3IRzd70Ri29G1Qzo1fZf6gDh9BcGmiegJnOldxpsClPnJwbD5nGSbISoINoUJNz0+QyvNmI+FyiwFBPqAN2sPc89LMgoLl8ajTuSyxDStYB7eWCx0D5ydtd0HOeCoWy84KjB3ODEqqjFeA/zh7cMlif8aJ7hxHxrYPZ9mAT0VPCIB/7y2rWgdi38aXgd15yKAmTtuHLQTWKkDI3WmqILRLXp9p875WHkXEmaB9vb2Qhbtvjl1ehzSF49Rg+FI",
+    "manifest_version": "2.0",
+    "preprocessing_context_hash": "91a1510e110c06d823329fd12d5a2a3696492da945352b06bf0bc58b0afa7a7d",
+    "protocol": "TADP-SEC/14.0",
+    "purpose": "tadp-local-evidence-report",
+    "schema": {
+      "feature_count": 29,
+      "feature_dtype": "<f8",
+      "label_binary": true,
+      "label_dtype": "<i8"
+    },
+    "statistics": {
+      "n_features": 29,
+      "n_negative": 7981,
+      "n_positive": 11,
+      "n_samples": 7992,
+      "positive_rate": 0.001376376376
+    },
+    "technical_measurements": {
+      "binary_labels": true,
+      "duplicate_rate": 0.002752752753,
+      "finite_feature_values": true,
+      "invalid_label_rate": 0.0,
+      "missing_rate": 0.0
+    },
+    "validator_version": "TADP-LEV/1.0"
+  }
+}
